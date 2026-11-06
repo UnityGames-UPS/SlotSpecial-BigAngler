@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: a8a3fb43c86bf4a96ab0b7330fb909d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4894141211703783120
+    second: Big Angler_yellow orange numbers 2_0
+  - first:
+      213: -6018149272694862839
+    second: Big Angler_yellow orange numbers 2_1
+  - first:
+      213: 5311108002654477414
+    second: Big Angler_yellow orange numbers 2_2
+  - first:
+      213: -4263868265945894737
+    second: Big Angler_yellow orange numbers 2_3
+  - first:
+      213: 7575426456820609114
+    second: Big Angler_yellow orange numbers 2_4
+  - first:
+      213: -5493359155664243998
+    second: Big Angler_yellow orange numbers 2_5
+  - first:
+      213: -2407848483151682455
+    second: Big Angler_yellow orange numbers 2_6
+  - first:
+      213: 4401732627781760570
+    second: Big Angler_yellow orange numbers 2_7
+  - first:
+      213: -2620971696461512833
+    second: Big Angler_yellow orange numbers 2_8
+  - first:
+      213: -5442003844802941247
+    second: Big Angler_yellow orange numbers 2_9
+  - first:
+      213: -4099949509159958125
+    second: Big Angler_yellow orange numbers 2_10
+  - first:
+      213: 5287060513482716247
+    second: Big Angler_yellow orange numbers 2_11
+  - first:
+      213: 6556839448261012207
+    second: Big Angler_yellow orange numbers 2_12
+  - first:
+      213: 6486864735197535350
+    second: Big Angler_yellow orange numbers 2_13
+  - first:
+      213: -7435112479252342341
+    second: Big Angler_yellow orange numbers 2_14
+  - first:
+      213: -6986606569222888818
+    second: Big Angler_yellow orange numbers 2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 298
+        width: 205
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de2434708b7be340800000000000000
+      internalID: 4894141211703783120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 293
+        width: 184
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c4fbb3f1d3b7ca0800000000000000
+      internalID: -6018149272694862839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 298
+        width: 209
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c54f5c698d4b940800000000000000
+      internalID: 5311108002654477414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_3
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 298
+        width: 202
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0fb3f2762b3d4c0800000000000000
+      internalID: -4263868265945894737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_4
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 294
+        width: 201
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5073e4e932512960800000000000000
+      internalID: 7575426456820609114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_5
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 474
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e23ef6f3faa3c3b0800000000000000
+      internalID: -5493359155664243998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 391
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964e7c8df8a959ed0800000000000000
+      internalID: -2407848483151682455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_7
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 292
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36bd2be088161d30800000000000000
+      internalID: 4401732627781760570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_8
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 291
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ffe0ae02070abd0800000000000000
+      internalID: -2620971696461512833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 48
+        width: 198
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cee53c065e1a74b0800000000000000
+      internalID: -5442003844802941247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_10
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 35
+        width: 207
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399cb75d4ad0a17c0800000000000000
+      internalID: -4099949509159958125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_11
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 206
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754b12466896f5940800000000000000
+      internalID: 5287060513482716247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_12
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 48
+        width: 197
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaadd21db29efa50800000000000000
+      internalID: 6556839448261012207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 34
+        width: 199
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c15779b19f50a50800000000000000
+      internalID: 6486864735197535350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_14
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 48
+        width: 198
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb91711d79c21d890800000000000000
+      internalID: -7435112479252342341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_yellow orange numbers 2_15
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 159
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e822f0887569a0f90800000000000000
+      internalID: -6986606569222888818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Big Angler_yellow orange numbers 2_0: 4894141211703783120
+      Big Angler_yellow orange numbers 2_1: -6018149272694862839
+      Big Angler_yellow orange numbers 2_10: -4099949509159958125
+      Big Angler_yellow orange numbers 2_11: 5287060513482716247
+      Big Angler_yellow orange numbers 2_12: 6556839448261012207
+      Big Angler_yellow orange numbers 2_13: 6486864735197535350
+      Big Angler_yellow orange numbers 2_14: -7435112479252342341
+      Big Angler_yellow orange numbers 2_15: -6986606569222888818
+      Big Angler_yellow orange numbers 2_2: 5311108002654477414
+      Big Angler_yellow orange numbers 2_3: -4263868265945894737
+      Big Angler_yellow orange numbers 2_4: 7575426456820609114
+      Big Angler_yellow orange numbers 2_5: -5493359155664243998
+      Big Angler_yellow orange numbers 2_6: -2407848483151682455
+      Big Angler_yellow orange numbers 2_7: 4401732627781760570
+      Big Angler_yellow orange numbers 2_8: -2620971696461512833
+      Big Angler_yellow orange numbers 2_9: -5442003844802941247
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

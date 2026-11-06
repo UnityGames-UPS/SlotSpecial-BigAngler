@@ -1,0 +1,1560 @@
+fileFormatVersion: 2
+guid: b9c944fd110ef496e841992aa69d6dff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6296950308357178539
+    second: Big Angler_total win panel_0
+  - first:
+      213: 8848876465762500405
+    second: Big Angler_total win panel_1
+  - first:
+      213: 7954742082295154524
+    second: Big Angler_total win panel_2
+  - first:
+      213: -7970630118386211703
+    second: Big Angler_total win panel_3
+  - first:
+      213: -9020257373528462348
+    second: Big Angler_total win panel_4
+  - first:
+      213: -5617326056282837385
+    second: Big Angler_total win panel_5
+  - first:
+      213: 5086333043250098447
+    second: Big Angler_total win panel_6
+  - first:
+      213: -822250272610831775
+    second: Big Angler_total win panel_7
+  - first:
+      213: -4844290952198978198
+    second: Big Angler_total win panel_8
+  - first:
+      213: 5090661801025577047
+    second: Big Angler_total win panel_9
+  - first:
+      213: -6536464398479436734
+    second: Big Angler_total win panel_10
+  - first:
+      213: -4148236534925270828
+    second: Big Angler_total win panel_11
+  - first:
+      213: -1981925833592627010
+    second: Big Angler_total win panel_12
+  - first:
+      213: -2862975846659510256
+    second: Big Angler_total win panel_13
+  - first:
+      213: -5785757633458140460
+    second: Big Angler_total win panel_14
+  - first:
+      213: 7517540566077257855
+    second: Big Angler_total win panel_15
+  - first:
+      213: 6467593831009178079
+    second: Big Angler_total win panel_16
+  - first:
+      213: 6417690347548395948
+    second: Big Angler_total win panel_17
+  - first:
+      213: 1064571276533832779
+    second: Big Angler_total win panel_18
+  - first:
+      213: -84507971457313979
+    second: Big Angler_total win panel_19
+  - first:
+      213: -4566358645557260116
+    second: Big Angler_total win panel_20
+  - first:
+      213: 8182473175470324374
+    second: Big Angler_total win panel_21
+  - first:
+      213: 5756698895615588914
+    second: Big Angler_total win panel_22
+  - first:
+      213: 3979208418099610417
+    second: Big Angler_total win panel_23
+  - first:
+      213: 3924753089242979892
+    second: Big Angler_total win panel_24
+  - first:
+      213: -7858088440434289086
+    second: Big Angler_total win panel_25
+  - first:
+      213: -5701389393545197884
+    second: Big Angler_total win panel_26
+  - first:
+      213: 6733558678655733901
+    second: Big Angler_total win panel_27
+  - first:
+      213: 4707305222892898225
+    second: Big Angler_total win panel_28
+  - first:
+      213: -7166057700995053586
+    second: Big Angler_total win panel_29
+  - first:
+      213: -5922695351739683250
+    second: Big Angler_total win panel_30
+  - first:
+      213: 6791934158071201948
+    second: Big Angler_total win panel_31
+  - first:
+      213: 8438148209837562034
+    second: Big Angler_total win panel_32
+  - first:
+      213: 1820503900237043786
+    second: Big Angler_total win panel_33
+  - first:
+      213: -2841994131532134624
+    second: Big Angler_total win panel_34
+  - first:
+      213: 4329072211630150047
+    second: Big Angler_total win panel_35
+  - first:
+      213: -4502522721545818944
+    second: Big Angler_total win panel_36
+  - first:
+      213: 5643850919427654022
+    second: Big Angler_total win panel_37
+  - first:
+      213: -6023235502966358926
+    second: Big Angler_total win panel_38
+  - first:
+      213: -2463767618728363600
+    second: Big Angler_total win panel_39
+  - first:
+      213: -2276465584381171149
+    second: Big Angler_total win panel_40
+  - first:
+      213: 1753223931661547743
+    second: Big Angler_total win panel_41
+  - first:
+      213: -7391076220573348915
+    second: Big Angler_total win panel_42
+  - first:
+      213: -5370296026768284270
+    second: Big Angler_total win panel_43
+  - first:
+      213: 3198144404255409588
+    second: Big Angler_total win panel_44
+  - first:
+      213: -7538093360814009278
+    second: Big Angler_total win panel_45
+  - first:
+      213: 3857960411224550431
+    second: Big Angler_total win panel_46
+  - first:
+      213: 8751613045656674565
+    second: Big Angler_total win panel_47
+  - first:
+      213: 2525283711804192873
+    second: Big Angler_total win panel_48
+  - first:
+      213: 350349553775865997
+    second: Big Angler_total win panel_49
+  - first:
+      213: 6884904470434897758
+    second: Big Angler_total win panel_50
+  - first:
+      213: 4308065326962474779
+    second: Big Angler_total win panel_51
+  - first:
+      213: -5889202773767495071
+    second: Big Angler_total win panel_52
+  - first:
+      213: -231028414210371541
+    second: Big Angler_total win panel_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Angler_total win panel_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 533
+        width: 51
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba48ae951f2436750800000000000000
+      internalID: 6296950308357178539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 546
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f761323468dca70800000000000000
+      internalID: 8848876465762500405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 541
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57cd0f17cbe46e60800000000000000
+      internalID: 7954742082295154524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_3
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 475
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9846f853322a26190800000000000000
+      internalID: -7970630118386211703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_4
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 538
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbec3cc5bb91d280800000000000000
+      internalID: -9020257373528462348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_5
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 526
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e27b3b6bf3b02b0800000000000000
+      internalID: -5617326056282837385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 520
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01f04c44f8469640800000000000000
+      internalID: 5086333043250098447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_7
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 544
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1623098cbb7c694f0800000000000000
+      internalID: -822250272610831775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_8
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 535
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a658a8d8b0f95ccb0800000000000000
+      internalID: -4844290952198978198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_9
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 526
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750a7c1cfe9a5a640800000000000000
+      internalID: 5090661801025577047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_10
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 534
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24455a1e240d945a0800000000000000
+      internalID: -6536464398479436734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 545
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d06b7b89d08e66c0800000000000000
+      internalID: -4148236534925270828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_12
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 530
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0aa8d74f8ce74e0800000000000000
+      internalID: -1981925833592627010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_13
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 531
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010365bd2aaa448d0800000000000000
+      internalID: -2862975846659510256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_14
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 545
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da093d261cd4bfa0800000000000000
+      internalID: -5785757633458140460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_15
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 530
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78bf91b05ba35860800000000000000
+      internalID: 7517540566077257855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_16
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 240
+        width: 755
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd15fc0925281c950800000000000000
+      internalID: 6467593831009178079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 487
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca943146e57301950800000000000000
+      internalID: 6417690347548395948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_18
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 511
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c12e78fed16ce00800000000000000
+      internalID: 1064571276533832779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_19
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 532
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543199c9274c3def0800000000000000
+      internalID: -84507971457313979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_20
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 513
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca09686610901a0c0800000000000000
+      internalID: -4566358645557260116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_21
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 526
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a3210200cfd8170800000000000000
+      internalID: 8182473175470324374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_22
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 533
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23afc003527e3ef40800000000000000
+      internalID: 5756698895615588914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_23
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 523
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133421839fcf83730800000000000000
+      internalID: 3979208418099610417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_24
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 500
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ed173f326877630800000000000000
+      internalID: 3924753089242979892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_25
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 524
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2469f46823672f290800000000000000
+      internalID: -7858088440434289086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_26
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 523
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c60f87cd8890e0b0800000000000000
+      internalID: -5701389393545197884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_27
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 518
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80168b31f7627d50800000000000000
+      internalID: 6733558678655733901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_28
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 518
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b74fdbe825b35140800000000000000
+      internalID: 4707305222892898225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_29
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 518
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7cc340d7c0d8c90800000000000000
+      internalID: -7166057700995053586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 524
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ee2b615fb5ecda0800000000000000
+      internalID: -5922695351739683250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 522
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c900dada12cc14e50800000000000000
+      internalID: 6791934158071201948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_32
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 524
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b85771f6135a1570800000000000000
+      internalID: 8438148209837562034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_33
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 524
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4897ddd6aab34910800000000000000
+      internalID: 1820503900237043786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_34
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 515
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027484815653f88d0800000000000000
+      internalID: -2841994131532134624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_35
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 339
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91da357d34f31c30800000000000000
+      internalID: 4329072211630150047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 274
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cce22da073d381c0800000000000000
+      internalID: -4502522721545818944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 262
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6814fb1428cf25e40800000000000000
+      internalID: 5643850919427654022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 253
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c3b27f83b296ca0800000000000000
+      internalID: -6023235502966358926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_39
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 252
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9f5948760fecdd0800000000000000
+      internalID: -2463767618728363600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_40
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 262
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aee8bbc9e5860e0800000000000000
+      internalID: -2276465584381171149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_41
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 254
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8766a70e3b45810800000000000000
+      internalID: 1753223931661547743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_42
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 249
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb83e4465f9d6990800000000000000
+      internalID: -7391076220573348915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_43
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 257
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295e8c97730e875b0800000000000000
+      internalID: -5370296026768284270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_44
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 251
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b50c042467126c20800000000000000
+      internalID: 3198144404255409588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 254
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24453f0e600536790800000000000000
+      internalID: -7538093360814009278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_46
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 250
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c2f8cbd8a3a8530800000000000000
+      internalID: 3857960411224550431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_47
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 243
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5016a0e62b9f37970800000000000000
+      internalID: 8751613045656674565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_48
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 247
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9683b27082c9b0320800000000000000
+      internalID: 2525283711804192873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_49
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 245
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80f60c1011bcd400800000000000000
+      internalID: 350349553775865997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_50
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f55c853281c8f50800000000000000
+      internalID: 6884904470434897758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_51
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 245
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f76caf69259cb30800000000000000
+      internalID: 4308065326962474779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_52
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 242
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162e7539749554ea0800000000000000
+      internalID: -5889202773767495071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_total win panel_53
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 246
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2018fd91e83bccf0800000000000000
+      internalID: -231028414210371541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Big Angler_total win panel_0: 6296950308357178539
+      Big Angler_total win panel_1: 8848876465762500405
+      Big Angler_total win panel_10: -6536464398479436734
+      Big Angler_total win panel_11: -4148236534925270828
+      Big Angler_total win panel_12: -1981925833592627010
+      Big Angler_total win panel_13: -2862975846659510256
+      Big Angler_total win panel_14: -5785757633458140460
+      Big Angler_total win panel_15: 7517540566077257855
+      Big Angler_total win panel_16: 6467593831009178079
+      Big Angler_total win panel_17: 6417690347548395948
+      Big Angler_total win panel_18: 1064571276533832779
+      Big Angler_total win panel_19: -84507971457313979
+      Big Angler_total win panel_2: 7954742082295154524
+      Big Angler_total win panel_20: -4566358645557260116
+      Big Angler_total win panel_21: 8182473175470324374
+      Big Angler_total win panel_22: 5756698895615588914
+      Big Angler_total win panel_23: 3979208418099610417
+      Big Angler_total win panel_24: 3924753089242979892
+      Big Angler_total win panel_25: -7858088440434289086
+      Big Angler_total win panel_26: -5701389393545197884
+      Big Angler_total win panel_27: 6733558678655733901
+      Big Angler_total win panel_28: 4707305222892898225
+      Big Angler_total win panel_29: -7166057700995053586
+      Big Angler_total win panel_3: -7970630118386211703
+      Big Angler_total win panel_30: -5922695351739683250
+      Big Angler_total win panel_31: 6791934158071201948
+      Big Angler_total win panel_32: 8438148209837562034
+      Big Angler_total win panel_33: 1820503900237043786
+      Big Angler_total win panel_34: -2841994131532134624
+      Big Angler_total win panel_35: 4329072211630150047
+      Big Angler_total win panel_36: -4502522721545818944
+      Big Angler_total win panel_37: 5643850919427654022
+      Big Angler_total win panel_38: -6023235502966358926
+      Big Angler_total win panel_39: -2463767618728363600
+      Big Angler_total win panel_4: -9020257373528462348
+      Big Angler_total win panel_40: -2276465584381171149
+      Big Angler_total win panel_41: 1753223931661547743
+      Big Angler_total win panel_42: -7391076220573348915
+      Big Angler_total win panel_43: -5370296026768284270
+      Big Angler_total win panel_44: 3198144404255409588
+      Big Angler_total win panel_45: -7538093360814009278
+      Big Angler_total win panel_46: 3857960411224550431
+      Big Angler_total win panel_47: 8751613045656674565
+      Big Angler_total win panel_48: 2525283711804192873
+      Big Angler_total win panel_49: 350349553775865997
+      Big Angler_total win panel_5: -5617326056282837385
+      Big Angler_total win panel_50: 6884904470434897758
+      Big Angler_total win panel_51: 4308065326962474779
+      Big Angler_total win panel_52: -5889202773767495071
+      Big Angler_total win panel_53: -231028414210371541
+      Big Angler_total win panel_6: 5086333043250098447
+      Big Angler_total win panel_7: -822250272610831775
+      Big Angler_total win panel_8: -4844290952198978198
+      Big Angler_total win panel_9: 5090661801025577047
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
