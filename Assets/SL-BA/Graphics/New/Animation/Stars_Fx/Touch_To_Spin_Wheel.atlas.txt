@@ -1,0 +1,7 @@
+Touch_To_Spin_Wheel.png
+size:146,147
+filter:Linear,Linear
+pma:true
+star
+bounds:2,2,142,143
+offsets:9,8,159,159

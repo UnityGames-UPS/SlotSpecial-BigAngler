@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: cdb15d0b558214da3be763f7d9b1d555
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1139002430423871875
+    second: B_Gold_Fish_0
+  - first:
+      213: -88433517722599370
+    second: B_Gold_Fish_1
+  - first:
+      213: 4355760404702387551
+    second: B_Gold_Fish_2
+  - first:
+      213: -7892756920133101090
+    second: B_Gold_Fish_3
+  - first:
+      213: -1764219709894238878
+    second: B_Gold_Fish_4
+  - first:
+      213: -6961018959833335359
+    second: B_Gold_Fish_5
+  - first:
+      213: -3095003318656121481
+    second: B_Gold_Fish_6
+  - first:
+      213: 59035946897972223
+    second: B_Gold_Fish_7
+  - first:
+      213: 5849202546258108522
+    second: B_Gold_Fish_8
+  - first:
+      213: 8904075147750527452
+    second: B_Gold_Fish_9
+  - first:
+      213: 8386603611208559605
+    second: B_Gold_Fish_10
+  - first:
+      213: -1669592650052767246
+    second: B_Gold_Fish_11
+  - first:
+      213: -4850186673483406497
+    second: B_Gold_Fish_12
+  - first:
+      213: -5809330157621492642
+    second: B_Gold_Fish_13
+  - first:
+      213: 7249042355868553006
+    second: B_Gold_Fish_14
+  - first:
+      213: -3024195292928128530
+    second: B_Gold_Fish_15
+  - first:
+      213: 4565732139284887594
+    second: B_Gold_Fish_16
+  - first:
+      213: -667713376444419621
+    second: B_Gold_Fish_17
+  - first:
+      213: 817657148212892887
+    second: B_Gold_Fish_18
+  - first:
+      213: -982907521085704250
+    second: B_Gold_Fish_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: B_Gold_Fish_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 441
+        width: 167
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e474003537130f0800000000000000
+      internalID: -1139002430423871875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 510
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63008e52f22d5cef0800000000000000
+      internalID: -88433517722599370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 400
+        width: 186
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d5ff0a205c27c30800000000000000
+      internalID: 4355760404702387551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 303
+        width: 168
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9d5f4166b477290800000000000000
+      internalID: -7892756920133101090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 302
+        width: 217
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dd206658b3487e0800000000000000
+      internalID: -1764219709894238878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 400
+        width: 77
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9ff58132e756f90800000000000000
+      internalID: -6961018959833335359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 302
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775c8d431e65c05d0800000000000000
+      internalID: -3095003318656121481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 262
+        width: 36
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb15d381ecb1d000800000000000000
+      internalID: 59035946897972223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 270
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a606605b9ba8c2150800000000000000
+      internalID: 5849202546258108522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_9
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 246
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1dd0bcb21a19b70800000000000000
+      internalID: 8904075147750527452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 246
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb281edc83336470800000000000000
+      internalID: 8386603611208559605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 194
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f17006a45a64d8e0800000000000000
+      internalID: -1669592650052767246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_12
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 121
+        width: 69
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5320b8faeca0bcb0800000000000000
+      internalID: -4850186673483406497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_13
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 222
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54c104300d116fa0800000000000000
+      internalID: -5809330157621492642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 121
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f4e479d95c99460800000000000000
+      internalID: 7249042355868553006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_15
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 194
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee94c996766e706d0800000000000000
+      internalID: -3024195292928128530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 115
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28f8adb03dbc5f30800000000000000
+      internalID: 4565732139284887594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1
+        width: 88
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1f049c83ecbb6f0800000000000000
+      internalID: -667713376444419621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_18
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4d94b18d6e85b00800000000000000
+      internalID: 817657148212892887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Gold_Fish_19
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c770a631d20c52f0800000000000000
+      internalID: -982907521085704250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B_Gold_Fish_0: -1139002430423871875
+      B_Gold_Fish_1: -88433517722599370
+      B_Gold_Fish_10: 8386603611208559605
+      B_Gold_Fish_11: -1669592650052767246
+      B_Gold_Fish_12: -4850186673483406497
+      B_Gold_Fish_13: -5809330157621492642
+      B_Gold_Fish_14: 7249042355868553006
+      B_Gold_Fish_15: -3024195292928128530
+      B_Gold_Fish_16: 4565732139284887594
+      B_Gold_Fish_17: -667713376444419621
+      B_Gold_Fish_18: 817657148212892887
+      B_Gold_Fish_19: -982907521085704250
+      B_Gold_Fish_2: 4355760404702387551
+      B_Gold_Fish_3: -7892756920133101090
+      B_Gold_Fish_4: -1764219709894238878
+      B_Gold_Fish_5: -6961018959833335359
+      B_Gold_Fish_6: -3095003318656121481
+      B_Gold_Fish_7: 59035946897972223
+      B_Gold_Fish_8: 5849202546258108522
+      B_Gold_Fish_9: 8904075147750527452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

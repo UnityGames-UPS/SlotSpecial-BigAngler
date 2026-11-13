@@ -1,0 +1,17 @@
+Fish_Rode_Reel.png
+size:298,492
+filter:Linear,Linear
+pma:true
+Bar
+bounds:228,29,63,83
+offsets:1,1,65,85
+Board
+bounds:2,208,294,282
+offsets:9,1,316,288
+Handel
+bounds:228,114,92,66
+offsets:1,1,104,68
+rotate:90
+Reel
+bounds:2,2,224,204
+offsets:1,1,231,206

@@ -1,0 +1,7 @@
+BG_Fish.png
+size:69,23
+filter:Linear,Linear
+pma:true
+1
+bounds:2,2,65,19
+offsets:1,1,67,21

@@ -1,0 +1,14 @@
+Progressive_prize_wheel.png
+size:2011,687
+filter:Linear,Linear
+pma:true
+L_1
+bounds:684,2,683,663
+offsets:2,3,687,669
+rotate:90
+L_2
+bounds:2,2,680,683
+offsets:2,2,684,688
+Light
+bounds:1349,25,660,660
+offsets:1,1,662,662

@@ -1,0 +1,12 @@
+B_Shark.png
+size:443,319
+filter:Linear,Linear
+pma:true
+Body
+bounds:2,2,366,315
+Eye
+bounds:370,156,16,17
+offsets:1,1,18,19
+Fing
+bounds:370,175,142,71
+rotate:90

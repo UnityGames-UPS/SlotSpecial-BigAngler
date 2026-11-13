@@ -1,0 +1,11 @@
+Progress_Wheel_Bubbles.png
+size:214,146
+filter:Linear,Linear
+pma:true
+1
+bounds:2,79,65,65
+offsets:1,1,67,67
+star
+bounds:69,2,142,143
+offsets:9,8,159,159
+rotate:90

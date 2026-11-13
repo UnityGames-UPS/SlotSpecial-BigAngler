@@ -1,0 +1,7 @@
+P_W_R_Rays.png
+size:958,812
+filter:Linear,Linear
+pma:true
+1
+bounds:2,2,954,808
+offsets:178,108,1254,1173

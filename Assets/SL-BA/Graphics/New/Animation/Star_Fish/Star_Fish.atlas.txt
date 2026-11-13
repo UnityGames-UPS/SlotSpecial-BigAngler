@@ -1,0 +1,7 @@
+Star_Fish.png
+size:301,261
+filter:Linear,Linear
+pma:true
+Star_Fish
+bounds:2,2,297,257
+offsets:20,15,317,296

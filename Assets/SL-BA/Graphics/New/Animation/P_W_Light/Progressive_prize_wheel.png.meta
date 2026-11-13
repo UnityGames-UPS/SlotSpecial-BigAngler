@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 176b9b65623cd43c389b184d9e676b53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4973979158326246447
+    second: Progressive_prize_wheel_0
+  - first:
+      213: -3046681328332511461
+    second: Progressive_prize_wheel_1
+  - first:
+      213: 1830026580767132897
+    second: Progressive_prize_wheel_2
+  - first:
+      213: -980888913436704003
+    second: Progressive_prize_wheel_3
+  - first:
+      213: 3869033444071885794
+    second: Progressive_prize_wheel_4
+  - first:
+      213: -5227482778636377055
+    second: Progressive_prize_wheel_5
+  - first:
+      213: 8281989945979479135
+    second: Progressive_prize_wheel_6
+  - first:
+      213: -2524402240346808996
+    second: Progressive_prize_wheel_7
+  - first:
+      213: -6126049160214293757
+    second: Progressive_prize_wheel_8
+  - first:
+      213: 503004293416902435
+    second: Progressive_prize_wheel_9
+  - first:
+      213: -7278472537555743244
+    second: Progressive_prize_wheel_10
+  - first:
+      213: 118886472431052713
+    second: Progressive_prize_wheel_11
+  - first:
+      213: -7204321636756732014
+    second: Progressive_prize_wheel_12
+  - first:
+      213: 4360519867134635142
+    second: Progressive_prize_wheel_13
+  - first:
+      213: -3842834852470972343
+    second: Progressive_prize_wheel_14
+  - first:
+      213: 187578359776422131
+    second: Progressive_prize_wheel_15
+  - first:
+      213: -7210776231482214697
+    second: Progressive_prize_wheel_16
+  - first:
+      213: -3887467535909392741
+    second: Progressive_prize_wheel_17
+  - first:
+      213: -8266595090500642594
+    second: Progressive_prize_wheel_18
+  - first:
+      213: -6673038562850008102
+    second: Progressive_prize_wheel_19
+  - first:
+      213: -6872598518605352367
+    second: Progressive_prize_wheel_20
+  - first:
+      213: -9180803193547740385
+    second: Progressive_prize_wheel_21
+  - first:
+      213: 1747482842842648335
+    second: Progressive_prize_wheel_22
+  - first:
+      213: 8093810337802224175
+    second: Progressive_prize_wheel_23
+  - first:
+      213: -3837211662166516487
+    second: Progressive_prize_wheel_24
+  - first:
+      213: -2143073886246718815
+    second: Progressive_prize_wheel_25
+  - first:
+      213: -3303023649931762379
+    second: Progressive_prize_wheel_26
+  - first:
+      213: 4415207900878049421
+    second: Progressive_prize_wheel_27
+  - first:
+      213: 5813117169054845722
+    second: Progressive_prize_wheel_28
+  - first:
+      213: -4347462159707528987
+    second: Progressive_prize_wheel_29
+  - first:
+      213: -7999882116152873077
+    second: Progressive_prize_wheel_30
+  - first:
+      213: 469863075353008359
+    second: Progressive_prize_wheel_31
+  - first:
+      213: 6013577658576219607
+    second: Progressive_prize_wheel_32
+  - first:
+      213: 3545598985819344378
+    second: Progressive_prize_wheel_33
+  - first:
+      213: -7253178279542311686
+    second: Progressive_prize_wheel_34
+  - first:
+      213: -5827207993888072994
+    second: Progressive_prize_wheel_35
+  - first:
+      213: -8360031139160592878
+    second: Progressive_prize_wheel_36
+  - first:
+      213: -47020572935187367
+    second: Progressive_prize_wheel_37
+  - first:
+      213: -368254100870897980
+    second: Progressive_prize_wheel_38
+  - first:
+      213: -3170736594398235386
+    second: Progressive_prize_wheel_39
+  - first:
+      213: 8488474574274165496
+    second: Progressive_prize_wheel_40
+  - first:
+      213: -7622510685047591540
+    second: Progressive_prize_wheel_41
+  - first:
+      213: -5800105040083746709
+    second: Progressive_prize_wheel_42
+  - first:
+      213: -4853011884143620731
+    second: Progressive_prize_wheel_43
+  - first:
+      213: 6329292229230708890
+    second: Progressive_prize_wheel_44
+  - first:
+      213: 7416299366920344169
+    second: Progressive_prize_wheel_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_0
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 642
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c7b34f0bf170540800000000000000
+      internalID: 4973979158326246447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_1
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 620
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17ece0597308b5d0800000000000000
+      internalID: -3046681328332511461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_2
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 618
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecc524ba7f856910800000000000000
+      internalID: 1830026580767132897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_3
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 641
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df28c7eeabe2362f0800000000000000
+      internalID: -980888913436704003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_4
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 620
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebc20a1b6191b530800000000000000
+      internalID: 3869033444071885794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_5
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 642
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12428e5fb104477b0800000000000000
+      internalID: -5227482778636377055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_6
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 642
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54a67bd9f98fe270800000000000000
+      internalID: 8281989945979479135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_7
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 620
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d9de9898587fcd0800000000000000
+      internalID: -2524402240346808996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 580
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303d8d8feb6ebfaa0800000000000000
+      internalID: -6126049160214293757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_9
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 581
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f5c956db70bf600800000000000000
+      internalID: 503004293416902435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_10
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 580
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdcd834acbadfa90800000000000000
+      internalID: -7278472537555743244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_11
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 580
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a72ad5ed9e56a100800000000000000
+      internalID: 118886472431052713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_12
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 518
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297447934ab150c90800000000000000
+      internalID: -7204321636756732014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_13
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 514
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ce79457bda38c30800000000000000
+      internalID: 4360519867134635142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_14
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 519
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9402af7df028baac0800000000000000
+      internalID: -3842834852470972343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_15
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 519
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8260e36896a9200800000000000000
+      internalID: 187578359776422131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 451
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d63ca7c83d2eeb90800000000000000
+      internalID: -7210776231482214697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_17
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 445
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ee14e6fd0fc0ac0800000000000000
+      internalID: -3887467535909392741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_18
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 452
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed898b04097274d80800000000000000
+      internalID: -8266595090500642594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_19
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 450
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad397d848ca9463a0800000000000000
+      internalID: -6673038562850008102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_20
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 370
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152f6a65f00af90a0800000000000000
+      internalID: -6872598518605352367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_21
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 368
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ba0df232c379080800000000000000
+      internalID: -9180803193547740385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_22
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 366
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fc9b2136e404810800000000000000
+      internalID: 1747482842842648335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_23
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 371
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2206109e9df25070800000000000000
+      internalID: 8093810337802224175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 284
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc149cd25c7fbac0800000000000000
+      internalID: -3837211662166516487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_25
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 284
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a239daa7a54242e0800000000000000
+      internalID: -2143073886246718815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_26
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 288
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5356a159d7d4922d0800000000000000
+      internalID: -3303023649931762379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_27
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 205
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80955d6138f54d30800000000000000
+      internalID: 4415207900878049421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_28
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 204
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b0d3b14475ca050800000000000000
+      internalID: 5813117169054845722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_29
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 195
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e02e281336baa3c0800000000000000
+      internalID: -4347462159707528987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_30
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 211
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f25bdb995baf090800000000000000
+      internalID: -7999882116152873077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_31
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 205
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e81d734af9458600800000000000000
+      internalID: 469863075353008359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_32
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 204
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd29a8e405847350800000000000000
+      internalID: 6013577658576219607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_33
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 131
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd4fb10e7f743130800000000000000
+      internalID: 3545598985819344378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_34
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 134
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af43d43a8c8875b90800000000000000
+      internalID: -7253178279542311686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_35
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 72
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda1cf31439912fa0800000000000000
+      internalID: -5827207993888072994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_36
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 71
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ee027e8f33bfb80800000000000000
+      internalID: -8360031139160592878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_37
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 64
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954101db903f85ff0800000000000000
+      internalID: -47020572935187367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_38
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 63
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce528aa8d2b3eaf0800000000000000
+      internalID: -368254100870897980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_39
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605bf8eddd74ff3d0800000000000000
+      internalID: -3170736594398235386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_40
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 72
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fafb84c6ae1dc570800000000000000
+      internalID: 8488474574274165496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_41
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d6e11fae6673690800000000000000
+      internalID: -7622510685047591540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_42
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b600bd14233e18fa0800000000000000
+      internalID: -5800105040083746709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_43
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 20
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dceda5763a6acb0800000000000000
+      internalID: -4853011884143620731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_44
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 25
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98cfea9fb926d750800000000000000
+      internalID: 6329292229230708890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressive_prize_wheel_45
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 1
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962dd312bfcfbe660800000000000000
+      internalID: 7416299366920344169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Progressive_prize_wheel_0: 4973979158326246447
+      Progressive_prize_wheel_1: -3046681328332511461
+      Progressive_prize_wheel_10: -7278472537555743244
+      Progressive_prize_wheel_11: 118886472431052713
+      Progressive_prize_wheel_12: -7204321636756732014
+      Progressive_prize_wheel_13: 4360519867134635142
+      Progressive_prize_wheel_14: -3842834852470972343
+      Progressive_prize_wheel_15: 187578359776422131
+      Progressive_prize_wheel_16: -7210776231482214697
+      Progressive_prize_wheel_17: -3887467535909392741
+      Progressive_prize_wheel_18: -8266595090500642594
+      Progressive_prize_wheel_19: -6673038562850008102
+      Progressive_prize_wheel_2: 1830026580767132897
+      Progressive_prize_wheel_20: -6872598518605352367
+      Progressive_prize_wheel_21: -9180803193547740385
+      Progressive_prize_wheel_22: 1747482842842648335
+      Progressive_prize_wheel_23: 8093810337802224175
+      Progressive_prize_wheel_24: -3837211662166516487
+      Progressive_prize_wheel_25: -2143073886246718815
+      Progressive_prize_wheel_26: -3303023649931762379
+      Progressive_prize_wheel_27: 4415207900878049421
+      Progressive_prize_wheel_28: 5813117169054845722
+      Progressive_prize_wheel_29: -4347462159707528987
+      Progressive_prize_wheel_3: -980888913436704003
+      Progressive_prize_wheel_30: -7999882116152873077
+      Progressive_prize_wheel_31: 469863075353008359
+      Progressive_prize_wheel_32: 6013577658576219607
+      Progressive_prize_wheel_33: 3545598985819344378
+      Progressive_prize_wheel_34: -7253178279542311686
+      Progressive_prize_wheel_35: -5827207993888072994
+      Progressive_prize_wheel_36: -8360031139160592878
+      Progressive_prize_wheel_37: -47020572935187367
+      Progressive_prize_wheel_38: -368254100870897980
+      Progressive_prize_wheel_39: -3170736594398235386
+      Progressive_prize_wheel_4: 3869033444071885794
+      Progressive_prize_wheel_40: 8488474574274165496
+      Progressive_prize_wheel_41: -7622510685047591540
+      Progressive_prize_wheel_42: -5800105040083746709
+      Progressive_prize_wheel_43: -4853011884143620731
+      Progressive_prize_wheel_44: 6329292229230708890
+      Progressive_prize_wheel_45: 7416299366920344169
+      Progressive_prize_wheel_5: -5227482778636377055
+      Progressive_prize_wheel_6: 8281989945979479135
+      Progressive_prize_wheel_7: -2524402240346808996
+      Progressive_prize_wheel_8: -6126049160214293757
+      Progressive_prize_wheel_9: 503004293416902435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
