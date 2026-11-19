@@ -359,7 +359,7 @@ public class SlotManager : MonoBehaviour
             isBonus = true;
             yield return PlayBonusSymbolAnimation();
             bonusWheelManager.InitializeSliceValues(socketManager.resultData.payload.prizeWheelSlices);
-            yield return bonusWheelManager.PlayBonusWheel(socketManager.resultData.payload.prizeWheelResult);
+            yield return bonusWheelManager.PlayBonusWheel(socketManager.resultData.payload.prizeWheelResult, isInFreeSpins);
 
             PrizeWheelResult wheel = socketManager.resultData.payload.prizeWheelResult;
             if (wheel.type == "fishing_bonus") yield return fishingBonusManager.Play(wheel.winCash, isInFreeSpins);
@@ -388,7 +388,8 @@ public class SlotManager : MonoBehaviour
             yield return ShowWinLineAnimation(payload.lineWins, payload.winAmount, oneShot: isInFreeSpins);
         }
 
-        uiManager.currentBalance = socketManager.resultData.player.balance;
+        // Free spins hold the balance at its pre-free-games value; PlayExit's TOTAL WIN credits the lot.
+        if (!isInFreeSpins) uiManager.currentBalance = socketManager.resultData.player.balance;
 
         if (isInFreeSpins)
         {
@@ -427,6 +428,7 @@ public class SlotManager : MonoBehaviour
         uiManager.HideStartButton();
         // The last free spin comes back without optionChosen; ChosenIndex is the same index we sent as choiceIndex.
         yield return freeSpinManager.PlayExit(freeGames.totalWinCash, freeSpinManager.ChosenIndex);
+        uiManager.currentBalance = socketManager.resultData.player.balance; // resync with the server after the credit
     }
 
     // Pick → BONUS reply → curtain → START. Runs on the trigger and again on every retrigger.
@@ -453,7 +455,7 @@ public class SlotManager : MonoBehaviour
     {
         audioController.PlayNormalWin();
         uiManager.UpdateWin(isInFreeSpins ? socketManager.resultData.payload.freeGames.totalWinCash : winAmount, true);
-        uiManager.UpdateBalance(uiManager.currentBalance + winAmount, true);
+        if (!isInFreeSpins) uiManager.UpdateBalance(uiManager.currentBalance + winAmount, true);
 
         if (_isAutoSpin || oneShot)
         {

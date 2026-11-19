@@ -111,6 +111,7 @@ public class BonusWheelManager : MonoBehaviour
     private RectTransform[] _prizePanels;
     private Vector2[] _prizePanelRest;
     private bool _awaitingTap;
+    private bool _inFreeSpins; // wheel wins in free spins go to the balance at the free games TOTAL WIN
     private bool _spinRequested;
     private SkeletonGraphic _bubble, _bgShine, _stars, _progBgShine;
 
@@ -152,8 +153,9 @@ public class BonusWheelManager : MonoBehaviour
     }
 
     // Full wheel: intro → wait for Touch to Spin / START → spin to result slice → result → exit.
-    internal IEnumerator PlayBonusWheel(PrizeWheelResult result)
+    internal IEnumerator PlayBonusWheel(PrizeWheelResult result, bool inFreeSpins = false)
     {
+        _inFreeSpins = inFreeSpins;
         yield return PlayTriggerIntro();
         yield return WaitForStart();
         yield return SpinToSlice(result.sliceIndex);
@@ -347,7 +349,7 @@ public class BonusWheelManager : MonoBehaviour
         seq.AppendCallback(() =>
         {
             instantWinText.gameObject.SetActive(false);
-            PayOut(winCash);
+            PayOut(winCash, !_inFreeSpins);
         });
 
         yield return seq.WaitForCompletion();
@@ -429,17 +431,18 @@ public class BonusWheelManager : MonoBehaviour
         reveal.AppendInterval(0.3f);
         reveal.AppendCallback(() => PlaySpine(progressiveResultRays, true));
         reveal.Append(progressiveResultBand.DOScaleX(1f, 0.8f).SetEase(Ease.OutCubic));
-        reveal.AppendCallback(() => PayOut(pw.winCash));
+        reveal.AppendCallback(() => PayOut(pw.winCash, !_inFreeSpins));
         yield return reveal.WaitForCompletion();
 
         yield return new WaitForSeconds(progressiveHoldDuration);
     }
 
-    internal void PayOut(double winCash)
+    // toBalance is false in free spins (the TOTAL WIN popup credits it) and for the fishing bonus (its popup credits it).
+    internal void PayOut(double winCash, bool toBalance)
     {
         // Adds to the WIN bar: the free-games running total, or 0 in the base game (reset at spin start).
         uiManager.UpdateWin(uiManager.CurrentWinDisplay + winCash, true);
-        uiManager.UpdateBalance(uiManager.currentBalance + winCash, true);
+        if (toBalance) uiManager.UpdateBalance(uiManager.currentBalance + winCash, true);
     }
 
     // Shrinks the bonus wheel away; the dim (BonusObjects) stays on so the progressive wheel can follow.

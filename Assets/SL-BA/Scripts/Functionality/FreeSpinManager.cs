@@ -132,8 +132,9 @@ public class FreeSpinManager : MonoBehaviour
         background.sprite = _baseBackground;
     }
 
-    // BIG WIN + TOTAL WIN popup, shared with the fishing bonus. clearWin is false inside free spins so the running total stays.
-    internal IEnumerator PlayTotalWin(double totalWin, Sprite panelSprite, bool clearWin)
+    // BIG WIN + TOTAL WIN popup, shared with the fishing bonus. settle is false inside free spins: the running total stays
+    // and the balance waits for the free games' own TOTAL WIN.
+    internal IEnumerator PlayTotalWin(double totalWin, Sprite panelSprite, bool settle)
     {
         totalWinAmount.text = UIManager.ToSpriteString(totalWin);
         if (panelSprite) totalWinPanelImage.sprite = panelSprite;
@@ -155,7 +156,12 @@ public class FreeSpinManager : MonoBehaviour
         uiManager.HideTakeButton();
         show.Complete();
 
-        if (clearWin) uiManager.UpdateWin(0); // WIN -> GOOD LUCK just before the fade, as in the clip
+        if (settle)
+        {
+            uiManager.UpdateWin(0); // WIN -> GOOD LUCK just before the fade, as in the clip
+            uiManager.UpdateBalance(uiManager.currentBalance + totalWin, true); // credited only on TAKE / fade-out
+            uiManager.currentBalance += totalWin;
+        }
         yield return totalWinPopup.DOFade(0f, 0.4f).WaitForCompletion();
         totalWinPopup.gameObject.SetActive(false);
     }

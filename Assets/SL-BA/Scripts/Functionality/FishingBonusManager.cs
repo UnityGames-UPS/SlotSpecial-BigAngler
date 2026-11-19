@@ -114,7 +114,7 @@ public class FishingBonusManager : MonoBehaviour
         loadingIcon.gameObject.SetActive(true); // before StartAnimation: Invoke doesn't run on inactive objects
         loadingIcon.StartAnimation();
         yield return new WaitForSeconds(loadingDuration);
-        bonusWheelManager.PayOut(winCash);
+        bonusWheelManager.PayOut(winCash, false); // balance is credited when the TOTAL WIN popup closes
         bonusWheelManager.SetStartButtonsShown(false);
         yield return new WaitForSeconds(0.2f);
 

@@ -174,6 +174,7 @@ public class UIManager : MonoBehaviour
 
     [Header("Game Rules Dynamic Texts")]
     [SerializeField] private TMP_Text totalLineCountText;
+    [SerializeField] private TMP_Text totalLineCountText_Portrait;
     [SerializeField] private TMP_Text ruleSymbol0Text;
     [SerializeField] private TMP_Text ruleSymbol1Text;
     [SerializeField] private TMP_Text ruleSymbol2Text;
@@ -974,6 +975,10 @@ public class UIManager : MonoBehaviour
         if (totalLineCountText != null)
         {
             totalLineCountText.text = socketManager.initialData.lines.Count.ToString();
+        }
+        if (totalLineCountText_Portrait != null)
+        {
+            totalLineCountText_Portrait.text = socketManager.initialData.lines.Count.ToString();
         }
 
         TMP_Text[] symbolTexts =
