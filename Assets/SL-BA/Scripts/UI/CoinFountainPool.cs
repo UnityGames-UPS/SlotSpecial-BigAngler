@@ -14,8 +14,9 @@ public class CoinFountainPool : GenericObjectPool<CoinFountainItem>
   [Header("Per-Coin Randomization")]
   [SerializeField] private float coinFadeInDuration = 0.15f;
   [SerializeField] private float fallToY = -800f; // anchored Y coins fall to (set to WinPanelBG hidden Y, off-screen)
-  [SerializeField] private Vector2 riseRange = new Vector2(100f, 150f);
-  [SerializeField] private Vector2 driftXRange = new Vector2(60f, 180f); // magnitude; sign randomized L/R
+  [SerializeField] private float launchAngle = 90f;  // degrees: 0 = right, 45 = north-east, 90 = up, 135 = north-west
+  [SerializeField] private float angleSpread = 80f;  // total fan width around launchAngle (0 = every coin same direction)
+  [SerializeField] private Vector2 launchPowerRange = new Vector2(100f, 150f); // distance from origin to the arc's apex
   [SerializeField] private Vector2 upDurationRange = new Vector2(0.45f, 0.7f);
   [SerializeField] private Vector2 downDurationRange = new Vector2(0.5f, 0.8f);
   [SerializeField] private Ease upEase = Ease.OutQuad;
@@ -56,11 +57,13 @@ public class CoinFountainPool : GenericObjectPool<CoinFountainItem>
       CoinFountainItem coin = GetFromPool();
       if (coin == null) continue;
 
-      float riseY = Random.Range(riseRange.x, riseRange.y);
-      float driftMag = Random.Range(driftXRange.x, driftXRange.y);
-      float driftX = (Random.value < 0.5f ? -1f : 1f) * driftMag;
       float upDur = Random.Range(upDurationRange.x, upDurationRange.y);
       float downDur = Random.Range(downDurationRange.x, downDurationRange.y);
+      float angle = (launchAngle + Random.Range(-angleSpread, angleSpread) * 0.5f) * Mathf.Deg2Rad;
+      float power = Random.Range(launchPowerRange.x, launchPowerRange.y);
+      float riseY = Mathf.Sin(angle) * power;
+      // X drifts linearly over the whole flight; scale it so the apex (reached at upDur) sits on the launch angle.
+      float driftX = Mathf.Cos(angle) * power * (upDur + downDur) / upDur;
 
       CoinFountainItem captured = coin;
       captured.Launch(origin, coinFadeInDuration, riseY, driftX, upDur, downDur, fallToY, upEase, downEase,

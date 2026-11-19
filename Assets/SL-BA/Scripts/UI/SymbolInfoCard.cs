@@ -113,8 +113,8 @@ public class SymbolInfoCard : MonoBehaviour
     }
 
     // Symbol IDs whose card should show only a description, with no name and no multipliers.
-    private const int SyringeSymbolId = 0;
-    private const int MedKitWildSymbolId = 1;
+    private const int SyringeSymbolId = 20;
+    private const int MedKitWildSymbolId = 21;
 
     private static readonly System.Collections.Generic.Dictionary<int, string> DescriptionOnlySymbols =
         new System.Collections.Generic.Dictionary<int, string>

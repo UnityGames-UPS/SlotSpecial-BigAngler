@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private SlotManager slotManager;
     [SerializeField] private SocketIOManager socketManager;
     [SerializeField] private AudioController audioController;
+    [SerializeField] private BonusWheelManager bonusWheelManager;
     [SerializeField] private JSFunctCalls jsFunctCalls;
     [SerializeField] private SymbolInfoCard symbolInfoCard;
 
@@ -183,14 +184,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text ruleSymbol7Text;
     [SerializeField] private TMP_Text ruleSymbol8Text;
     [SerializeField] private TMP_Text ruleSymbol9Text;
-
-    [Header("Free Spin Count Display - Game Screen")]
-    [SerializeField] private GameObject freeSpinCountContainer;
-    [SerializeField] private TMP_Text remainingFreeSpinsText;
-    [SerializeField] private TMP_Text FreeSpinTotalWinText;
-    [SerializeField] private GameObject freeSpinCountContainerPortrait;
-    [SerializeField] private TMP_Text remainingFreeSpinsTextPortrait;
-    [SerializeField] private TMP_Text FreeSpinTotalWinTextPortrait;
+    [SerializeField] private TMP_Text ruleSymbol10Text;
 
     [Header("Ping Display")]
     [SerializeField] private TMP_Text pingText;
@@ -279,14 +273,13 @@ public class UIManager : MonoBehaviour
     private Tween balanceTween;
     private Tween winTween;
     private double _currentWinDisplayAmount = 0;
-    private int totalFreeSpinsAwarded = 0;
+    internal double CurrentWinDisplay => _currentWinDisplayAmount;
 
     private Coroutine bgAnimationRoutine;
 
     private System.Action universalWinPopupCallback;
     private Coroutine uwpAutoCloseCoroutine;
     private readonly List<Tween> uwpTweens = new List<Tween>();
-    private Tween freeSpinTotalWinTween;
 
     private OrientationChange orientationChange;
     private readonly Dictionary<Transform, Vector3> jackpotInitialLocalPositions = new Dictionary<Transform, Vector3>();
@@ -368,9 +361,6 @@ public class UIManager : MonoBehaviour
 
         KillUwpTweens();
         SetGameObjectActive(universalWinPopup, universalWinPopupPortrait, false);
-
-        if (freeSpinCountContainer) freeSpinCountContainer.SetActive(false);
-        if (freeSpinCountContainerPortrait) freeSpinCountContainerPortrait.SetActive(false);
 
         UpdatePingDisplay("-- ms");
     }
@@ -990,7 +980,7 @@ public class UIManager : MonoBehaviour
         {
             ruleSymbol0Text, ruleSymbol1Text, ruleSymbol2Text, ruleSymbol3Text,
             ruleSymbol4Text, ruleSymbol5Text, ruleSymbol6Text, ruleSymbol7Text,
-            ruleSymbol8Text, ruleSymbol9Text
+            ruleSymbol8Text, ruleSymbol9Text ,ruleSymbol10Text
         };
 
         var symbols = socketManager.initUIData.paylines.symbols;
@@ -1009,7 +999,7 @@ public class UIManager : MonoBehaviour
                 double win = symbol.multiplier[m];
                 if (win == 0) continue;
 
-                string line = $"<color=red>{m + 3}</color>  {win:0.##}";
+                string line = $"{win:0.##}";
                 fullText = (fullText == "") ? line : line + $"\n{fullText}";
             }
 
@@ -1060,73 +1050,16 @@ public class UIManager : MonoBehaviour
         SetButtonInteractable(WheelStartButton, WheelStartButtonPortrait, interactable);
     }
 
-    // Dispatches the click to whichever flow currently owns the button — the two flows
-    // never overlap, so exactly one of these is meaningful at any given time.
+    // Click sound only — BonusWheelManager.WaitForStart listens to this button itself
+    // (bonus wheel and free games start).
     private void OnSharedStartButtonClicked()
     {
         audioController.PlayUIButton(false);
-
-        OnFreeSpinStartButtonClicked();
-
     }
 
     #endregion
 
     #region Free Spins Flow
-
-    private int _freeSpinsAwardedPending;
-
-    internal void OnFreeSpinsTriggered(int spinsAwarded)
-    {
-        audioController.PlayFreeSpinsWon();
-        _freeSpinsAwardedPending = spinsAwarded;
-
-
-
-        if (gameLogoObject) gameLogoObject.SetActive(false);
-        UpdateFreeSpinCount(spinsAwarded);
-        ShowStartButton(true);
-    }
-
-    private void OnFreeSpinStartButtonClicked()
-    {
-        HideStartButton();
-        StartFreeSpinsSequence(_freeSpinsAwardedPending);
-    }
-
-    // Called by SlotManager once the free-spin trigger intro finishes while autospin is
-    // running — autospin has no button to click, so it plays the same sequence a manual
-    // "Start Free Spins" click would.
-    internal void BeginFreeSpinsFromAutoSpin()
-    {
-        HideStartButton();
-        StartFreeSpinsSequence(_freeSpinsAwardedPending, viaAutoSpin: true);
-    }
-
-    private void StartFreeSpinsSequence(int spinsAwarded, bool viaAutoSpin = false)
-    {
-        slotManager.isInFreeSpins = true;
-        int totalSpins = spinsAwarded;
-
-        // Keep SlotManager's own counter in sync so the first free spin's TweenRoutine (which does
-        // UpdateFreeSpinCount(freeSpinsRemaining--)) doesn't stomp this correct value with stale data.
-        slotManager.freeSpinsRemaining = totalSpins;
-
-        // Hidden for the whole free-spin round — cancelling autoplay mid-bonus isn't offered;
-        // SetSpinButtonReady() (called once free spins fully end) restores it if autoplay is still on.
-        SetButtonActive(autoSpinStopButton, autoSpinStopButtonPortrait, false);
-
-        //if (gameLogoObject) gameLogoObject.SetActive(false);
-        //UpdateFreeSpinCount(totalSpins);
-        UpdateWinDisplay(0);
-
-        // Kick off the first free spin — pressing Start is what actually begins the bonus
-        // round, same as OnSpinButtonPressed does for a normal manual spin. viaAutoSpin must
-        // be true when called from autospin so StartSlots doesn't stop the running
-        // AutoSpinCoroutine (see StartSlots' !autoSpin branch).
-        slotManager.StartSlots(viaAutoSpin);
-        ShowReelSpinningButton(true);
-    }
 
     // Shown, disabled, in the gap between every chained free spin (manual or autoplay) —
     // a visual placeholder only, the next free spin starts itself automatically.
@@ -1153,40 +1086,6 @@ public class UIManager : MonoBehaviour
         // Each new free spin's stop button must be clickable — nothing else resets this
         // during free-spin chaining (SetSpinButtonReady() isn't called between free spins).
         ShowReelSpinningButton(true);
-    }
-
-    internal void OnFreeSpinsEnded(double serverTotalRoundWin)
-    {
-        slotManager.isInFreeSpins = false;
-        audioController.PlayFreeSpinsWinAmount();
-        StartCoroutine(EndFreeSpinsTransitionSequence());
-    }
-
-    private IEnumerator EndFreeSpinsTransitionSequence()
-    {
-        if (freeSpinCountContainer) freeSpinCountContainer.SetActive(false);
-        if (freeSpinCountContainerPortrait) freeSpinCountContainerPortrait.SetActive(false);
-        if (gameLogoObject) gameLogoObject.SetActive(true);
-
-        UpdateWinDisplay(0);
-        SetSpinButtonReady();
-        SetBetControlsEnabled(true);
-        SetButtonInteractable(settingsOpenButton, settingsOpenButtonPortrait, true);
-
-        yield return null;
-    }
-
-    internal void UpdateFreeSpinCount(int remainingSpins)
-    {
-        //if (totalSpins > 0) totalFreeSpinsAwarded = totalSpins;
-
-        if (freeSpinCountContainer) freeSpinCountContainer.SetActive(true);
-        if (freeSpinCountContainerPortrait) freeSpinCountContainerPortrait.SetActive(true);
-        // remainingSpins = totalFreeSpinsAwarded - playedSpins;
-        // if (remainingFreeSpinsText) remainingFreeSpinsText.text = $"{remainingSpins}";
-        // if(remainingFreeSpinsTextPortrait) remainingFreeSpinsTextPortrait.text = $"{remainingSpins}";
-        if (remainingFreeSpinsText) remainingFreeSpinsText.text = ToSpriteString(remainingSpins);
-        if (remainingFreeSpinsTextPortrait) remainingFreeSpinsTextPortrait.text = ToSpriteString(remainingSpins);
     }
 
     #endregion
@@ -1439,23 +1338,10 @@ public class UIManager : MonoBehaviour
             SetTMPText(winAmountText, winAmountTextPortrait, winAmount.ToString("F2"));
         }
 
-        bool showWinText = winAmount > 0 || (slotManager != null && slotManager.isInFreeSpins);
+        // Free games start on GOOD LUCK too, as in the clip.
+        bool showWinText = winAmount > 0;
         SetGameObjectActive(goodLuckObject, goodLuckObjectPortrait, !showWinText);
         SetGameObjectActive(winTextObject, winTextObjectPortrait, showWinText);
-    }
-
-    internal void UpdateFreeSpinTotalWin(double total)
-    {
-        if (freeSpinTotalWinTween != null) freeSpinTotalWinTween.Kill();
-
-        // double displayAmount = 0f;
-        // freeSpinTotalWinTween = DOTween.To(() => displayAmount, val =>
-        // {
-        //     displayAmount = val;
-        //     SetTMPText(FreeSpinTotalWinText, FreeSpinTotalWinTextPortrait, FormatAmount(val));
-        // }, total, 0.5f);
-
-        SetTMPText(FreeSpinTotalWinText, FreeSpinTotalWinTextPortrait, FormatAmount(total));
     }
 
     #endregion
@@ -1782,7 +1668,7 @@ public class UIManager : MonoBehaviour
         UpdateWin(0.00);
         UpdateBetDisplay();
 
-        //bonusManager.IntializeBonusWheelValue();
+        bonusWheelManager.InitializeSliceValues(root.features?.prizeWheel?.slices);
         //StartBGAnimation();
         UpdateJackpotDisplay(root.jackpotData.values);
     }

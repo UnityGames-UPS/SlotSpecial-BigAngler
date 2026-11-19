@@ -36,13 +36,26 @@ public class SlotManager : MonoBehaviour
     [SerializeField] private UIManager uiManager;
     [SerializeField] private SocketIOManager socketManager;
     [SerializeField] private OrientationChange orientationChange;
+    [SerializeField] private BonusWheelManager bonusWheelManager;
+    [SerializeField] private FreeSpinManager freeSpinManager;
+    [SerializeField] private FishingBonusManager fishingBonusManager;
+
+    [Header("Bonus Wheel Trigger")]
+    [SerializeField] private float bonusSymbolAnimDuration = 3f;
+    private const int BonusWheelSymbolId = 11;
+
+    [Header("Free Games")]
+    [SerializeField] private float freeSpinDelay = 0.8f;
+
+    // Every landed scatter of the chosen option pays during free games; -1 matches nothing.
+    private int _scatterId = -1; // from the latest BONUS reply; retrigger spins come back without optionChosen
+    private int ScatterId => isInFreeSpins ? _scatterId : -1;
 
 
     internal bool SocketConnected = false;
     internal bool _isAutoSpin = false;
     internal bool isInFreeSpins = false;
     internal bool isBonus = false;
-    internal int freeSpinsRemaining = 0;
     private bool _wasAutoSpinOn;
     private List<Tween> _alltweens = new List<Tween>();
     private Coroutine _autoSpinRoutine = null;
@@ -243,22 +256,26 @@ public class SlotManager : MonoBehaviour
 
         StopWinLinesLoop();
 
-        if (uiManager.currentBalance < uiManager.currentTotalBet)
+        // Free spins are pre-paid and the WIN bar keeps the running total.
+        if (!isInFreeSpins)
         {
-            StopAutoSpin();
-            _isSpinning = false;
-            yield return new WaitForSeconds(0.2f);
-            uiManager.LowBalPopup();
-            // OnSpinButtonPressed disabled spin/bet controls before this spin was rejected;
-            // restore them so the player can lower the bet and spin again.
-            uiManager.SetSpinButtonReady();
-            uiManager.SetBetButtonsInteractable(true);
-            yield break;
-        }
+            if (uiManager.currentBalance < uiManager.currentTotalBet)
+            {
+                StopAutoSpin();
+                _isSpinning = false;
+                yield return new WaitForSeconds(0.2f);
+                uiManager.LowBalPopup();
+                // OnSpinButtonPressed disabled spin/bet controls before this spin was rejected;
+                // restore them so the player can lower the bet and spin again.
+                uiManager.SetSpinButtonReady();
+                uiManager.SetBetButtonsInteractable(true);
+                yield break;
+            }
 
-        uiManager.UpdateBalance(uiManager.currentBalance - uiManager.currentTotalBet);
-        uiManager.currentBalance = uiManager.currentBalance - uiManager.currentTotalBet;
-        uiManager.UpdateWin(0.00);
+            uiManager.UpdateBalance(uiManager.currentBalance - uiManager.currentTotalBet);
+            uiManager.currentBalance = uiManager.currentBalance - uiManager.currentTotalBet;
+            uiManager.UpdateWin(0.00);
+        }
         yield return null;
 
         ResetOverlays();
@@ -276,6 +293,7 @@ public class SlotManager : MonoBehaviour
 
         socketManager.AccumulateResult(uiManager.betCounter);
         yield return new WaitUntil(() => socketManager.isResultdone);
+        if (isInFreeSpins) freeSpinManager.UpdateCounter(socketManager.resultData.payload.freeGames);
 
         // // Load result matrix into result images
         for (int j = 0; j < socketManager.resultData.matrix.Count; j++)
@@ -312,6 +330,13 @@ public class SlotManager : MonoBehaviour
             yield return StopTweening(_slotTransforms[i], i, _stopSpinToggle || isTurbo);
 
             audioController.PlayReelStop();
+            if (socketManager.resultData.matrix.Exists(row => row[i] == BonusWheelSymbolId.ToString())) audioController.PlayBonusIcon();
+            reelBgs[i].gameObject.SetActive(false); // this reel has landed
+            if (i + 1 < _numberOfSlots && CountBonusSymbols(i) >= 2) // 2+ bonus symbols so far: tease the next reel
+            {
+                reelBgs[i + 1].gameObject.SetActive(true); // before StartAnimation: Invoke doesn't run on inactive objects
+                reelBgs[i + 1].StartAnimation();
+            }
             if (isTurbo && !_stopSpinToggle) yield return new WaitForSeconds(0.08f); // turbo: quick left→right stagger
         }
         isTweening = false;
@@ -323,6 +348,17 @@ public class SlotManager : MonoBehaviour
         // Reels have fully stopped — nothing left to instant-stop, so the stop button goes away
         // right here rather than staying visible through any heatup/wheel-trigger animations.
         uiManager.HideStopButtonAfterReelsStopped();
+
+        if (socketManager.resultData.payload.prizeWheelTriggered)
+        {
+            isBonus = true;
+            yield return PlayBonusSymbolAnimation();
+            bonusWheelManager.InitializeSliceValues(socketManager.resultData.payload.prizeWheelSlices);
+            yield return bonusWheelManager.PlayBonusWheel(socketManager.resultData.payload.prizeWheelResult);
+
+            PrizeWheelResult wheel = socketManager.resultData.payload.prizeWheelResult;
+            if (wheel.type == "fishing_bonus") yield return fishingBonusManager.Play(wheel.winCash, isInFreeSpins);
+        }
 
         // Big/Huge/Mega win popup is shown before the win-line loop, which then plays once it's
         // closed (Take, or the 3s autoplay auto-close after Take becomes interactable).
@@ -341,14 +377,68 @@ public class SlotManager : MonoBehaviour
         //     }
         // }
 
-        if (socketManager.resultData.payload.lineWins.Count > 0)
+        Payload payload = socketManager.resultData.payload;
+        if (payload.lineWins.Count > 0 || FindSymbols(ScatterId).Count > 0)
         {
-            yield return ShowWinLineAnimation(socketManager.resultData.payload.lineWins, socketManager.resultData.payload.winAmount);
+            yield return ShowWinLineAnimation(payload.lineWins, payload.winAmount, oneShot: isInFreeSpins);
+        }
+
+        uiManager.currentBalance = socketManager.resultData.player.balance;
+
+        if (isInFreeSpins)
+        {
+            uiManager.ShowFreeSpinBetweenSpinsPlaceholder();
+            yield break; // PlayFreeGames chains the next free spin
+        }
+
+        // After this spin's own wins: free spins overwrite resultData. _isSpinning stays true throughout so autospin waits.
+        if (payload.pendingFreeGamesChoice)
+        {
+            yield return PlayFreeGames(payload.freeGamesOptions);
         }
 
         _isSpinning = false;
-        uiManager.currentBalance = socketManager.resultData.player.balance;
         uiManager.SetSpinButtonReady();
+    }
+
+    // Pick → BONUS choice → transition → START → chained free spins → total win → back to base.
+    private IEnumerator PlayFreeGames(List<FreeGameOption> options)
+    {
+        yield return ChooseFreeGames(options);
+
+        isInFreeSpins = true;
+        FreeGamesResult freeGames = socketManager.resultData.payload.freeGames;
+        while (freeGames.spinsRemaining > 0)
+        {
+            uiManager.HideFreeSpinBetweenSpinsPlaceholder(); // stop button for this spin
+            yield return TweenRoutine();
+            Payload payload = socketManager.resultData.payload;
+            if (payload.pendingFreeGamesChoice) yield return ChooseFreeGames(payload.freeGamesOptions); // retrigger: pick again
+            else if (payload.freeGames.spinsRemaining > 0) yield return new WaitForSeconds(freeSpinDelay);
+            freeGames = socketManager.resultData.payload.freeGames; // after a pick, this is the BONUS reply with the new count
+        }
+        isInFreeSpins = false;
+
+        uiManager.HideStartButton();
+        // The last free spin comes back without optionChosen; ChosenIndex is the same index we sent as choiceIndex.
+        yield return freeSpinManager.PlayExit(freeGames.totalWinCash, freeSpinManager.ChosenIndex);
+    }
+
+    // Pick → BONUS reply → curtain → START. Runs on the trigger and again on every retrigger.
+    private IEnumerator ChooseFreeGames(List<FreeGameOption> options)
+    {
+        StopWinLinesLoop();
+        PlaySymbolAnimations(BonusWheelSymbolId); // glow stays behind the intro until the next free spin's ResetOverlays
+
+        yield return freeSpinManager.PlayPick(options, uiManager.currentTotalBet);
+        socketManager.SendFreeGamesChoice(freeSpinManager.ChosenIndex);
+        yield return new WaitUntil(() => socketManager.isResultdone);
+
+        FreeGamesResult freeGames = socketManager.resultData.payload.freeGames;
+        _scatterId = freeGames.optionChosen.scatterSymbolId;
+        if (!isInFreeSpins) uiManager.UpdateWin(0); // a retrigger keeps the running total
+        yield return freeSpinManager.PlayEnter(freeGames);
+        if (!_isAutoSpin) yield return bonusWheelManager.WaitForStart();
     }
     #endregion
 
@@ -356,8 +446,8 @@ public class SlotManager : MonoBehaviour
 
     private IEnumerator ShowWinLineAnimation(List<LineWin> winLines, double winAmount, bool oneShot = false)
     {
-        PlayLineWinSound(winLines[0]);
-        uiManager.UpdateWin(winAmount, true);
+        audioController.PlayNormalWin();
+        uiManager.UpdateWin(isInFreeSpins ? socketManager.resultData.payload.freeGames.totalWinCash : winAmount, true);
         uiManager.UpdateBalance(uiManager.currentBalance + winAmount, true);
 
         if (_isAutoSpin || oneShot)
@@ -401,6 +491,7 @@ public class SlotManager : MonoBehaviour
                 PlayWinSymbolAnimation(row, col, symbolID);
             }
         }
+        PlaySymbolAnimations(ScatterId);
 
         yield return new WaitForSeconds(3f);
     }
@@ -453,7 +544,6 @@ public class SlotManager : MonoBehaviour
                     PlayWinSymbolAnimation(row, col, symbolID);
                 }
                 audioController.PlayPaylineHighlight();
-                PlayLineWinSound(winLines[i]);
 
                 foreach (var linewinText in lineWinTexts)
                 {
@@ -471,13 +561,6 @@ public class SlotManager : MonoBehaviour
         }
     }
 
-    // Plays the sound of the line's first symbol.
-    private void PlayLineWinSound(LineWin line)
-    {
-        var pos = line.matchedPositions[0];
-        audioController.PlaySymbolWin(int.Parse(socketManager.resultData.matrix[pos.row][pos.col]), false);
-    }
-
     // Shows the win-line animation for one slot, shared by ShowCombinedWinLinesHighlight and LoopWinLines.
     private void PlayWinSymbolAnimation(int row, int col, int symbolID)
     {
@@ -486,9 +569,52 @@ public class SlotManager : MonoBehaviour
 
         SetAnimationSymbolSize(anim.transform, symbolID);
         anim.textureArray = symbolAnimations[symbolID].frames;
+        SetSymbolAnimationSpeed(anim, symbolID);
         anim.gameObject.SetActive(true); // before StartAnimation: Invoke doesn't run on inactive objects
         SetResultImageVisible(resultImage, false);
         anim.StartAnimation();
+    }
+
+    // Each symbol plays at its own speed, set per symbol in Symbol Animations (higher = faster).
+    private void SetSymbolAnimationSpeed(ImageAnimation anim, int symbolID)
+    {
+        float speed = symbolAnimations[symbolID].animationSpeed;
+        anim.AnimationSpeed = speed > 0f ? speed : 5f; // 0 would stall ImageAnimation (divides by speed)
+    }
+
+    // Animates every landed bonus-wheel symbol before the wheel intro takes over.
+    private IEnumerator PlayBonusSymbolAnimation()
+    {
+        audioController.PlayBonusTrigger();
+        PlaySymbolAnimations(BonusWheelSymbolId);
+        yield return new WaitForSeconds(bonusSymbolAnimDuration); // they keep animating behind the wheel until the next spin's ResetOverlays
+    }
+
+    private void PlaySymbolAnimations(int symbolId)
+    {
+        foreach (var (row, reel) in FindSymbols(symbolId))
+            PlayWinSymbolAnimation(reel, row, symbolId);
+    }
+
+    // Cells holding this symbol id — same indexing as the result load: matrix[row][reel].
+    // Bonus-wheel symbols on reels 0..lastReel.
+    private int CountBonusSymbols(int lastReel)
+    {
+        int count = 0;
+        foreach (var (_, reel) in FindSymbols(BonusWheelSymbolId))
+            if (reel <= lastReel) count++;
+        return count;
+    }
+
+    private List<(int row, int reel)> FindSymbols(int symbolId)
+    {
+        var cells = new List<(int row, int reel)>();
+        var matrix = socketManager.resultData.matrix;
+        for (int r = 0; r < matrix.Count; r++)
+            for (int reel = 0; reel < matrix[r].Count; reel++)
+                if (int.TryParse(matrix[r][reel], out int id) && id == symbolId)
+                    cells.Add((r, reel));
+        return cells;
     }
 
     private void StopWinLinesLoop()
@@ -619,67 +745,77 @@ public class SlotManager : MonoBehaviour
         {
             case 0:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1f, time);
+                slotImage.transform.DOScale(1.4f, time);
                 break;
 
             case 1:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1f, time);
+                slotImage.transform.DOScale(1.5f, time);
                 break;
 
             case 2:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.53f, time);
+                slotImage.transform.DOScale(1.3f, time);
                 break;
 
             case 3:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.31f, time);
+                slotImage.transform.DOScale(1.45f, time);
                 break;
 
             case 4:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.31f, time);
+                slotImage.transform.DOScale(1.3f, time);
                 break;
 
             case 5:
                 //slotImage.transform.localScale = new Vector2(0.87f, 0.87f);
-                slotImage.transform.DOScale(1.2111f, time);
+                slotImage.transform.DOScale(1.3f, time);
                 break;
 
             case 6:
                 //slotImage.transform.localScale = new Vector2(0.87f, 0.87f);
-                slotImage.transform.DOScale(1.26f, time);
+                slotImage.transform.DOScale(1.45f, time);
                 break;
 
             case 7:
                 //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1.211f, time);
+                slotImage.transform.DOScale(1.3f, time);
                 break;
 
             case 8:
                 //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1.27f, time);
+                slotImage.transform.DOScale(1.45f, time);
                 break;
 
             case 9:
                 //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1.08f, time);
+                slotImage.transform.DOScale(1.3f, time);
                 break;
 
             case 10:
                 //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1.08f, time);
+                slotImage.transform.DOScale(1.3f, time);
                 break;
 
             case 11:
                 //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1.28f, time);
+                slotImage.transform.DOScale(1.9f, time);
                 break;
 
             case 12:
                 //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1f, time);
+                slotImage.transform.DOScale(1.6f, time);
+                break;
+            
+            case 13:
+                //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
+                slotImage.transform.DOScale(1.6f, time);
+                break;
+            
+            case 14:
+                //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
+                slotImage.transform.DOScale(1.48f, time);
                 break;
 
             default:
@@ -693,19 +829,21 @@ public class SlotManager : MonoBehaviour
     {
         float scale = symbolID switch
         {
-            0 => 1f,
-            1 => 1f,
-            2 => 1.53f,
-            3 => 1.31f,
-            4 => 1.31f,
-            5 => 1.2111f,
-            6 => 1.26f,
-            7 => 1.211f,
-            8 => 1.27f,
-            9 => 1.08f,
-            10 => 1.08f,
-            11 => 1.28f,
-            12 => 1f,
+            0 => 1.42f,
+            1 => 1.5f,
+            2 => 1.3f,
+            3 => 1.45f,
+            4 => 1.3f,
+            5 => 1.3f,
+            6 => 1.45f,
+            7 => 1.3f,
+            8 => 1.45f,
+            9 => 1.3f,
+            10 => 1.3f,
+            11 => 1.9f,
+            12 => 1.6f,
+            13 => 1.6f,
+            14 => 1.48f,
             _ => 1f
         };
         animTransform.localScale = Vector3.one * scale;
@@ -740,4 +878,5 @@ public class AnimSlot
 public class SymbolFrames
 {
     public List<Sprite> frames = new List<Sprite>();
+    public float animationSpeed = 5f; // ImageAnimation.AnimationSpeed for this symbol; 5 = the old shared speed
 }

@@ -123,18 +123,9 @@ public class OrientationChange : MonoBehaviour
         isLandscape = width > height;
         bool isMobile = IsMobileDevice();
 
-        if (isLandscape)
-        {
-            currentMode = OrientationMode.Landscape;
-        }
-        else if (isMobile)
-        {
-            currentMode = OrientationMode.MobilePortrait;
-        }
-        else
-        {
-            currentMode = OrientationMode.DesktopPortrait;
-        }
+        // Portrait-only game: every screen shape and device gets the portrait layout, unrotated,
+        // scaled to fit inside the screen. Landscape/DesktopPortrait stay in the enum and listeners but are never picked.
+        currentMode = OrientationMode.MobilePortrait;
 
         // Apply Rotation: DesktopPortrait gets -90 degrees rotation, MobilePortrait & Landscape get 0 degrees.
         Quaternion targetRotation = (currentMode == OrientationMode.DesktopPortrait) ? Quaternion.Euler(0, 0, -90) : Quaternion.identity;

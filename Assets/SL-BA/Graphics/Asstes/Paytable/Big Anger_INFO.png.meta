@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: b47b2455ddd0948688a6bd2c7bb5f01b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8938511990676054663
+    second: Big Anger_INFO_0
+  - first:
+      213: 7310277896481031431
+    second: Big Anger_INFO_1
+  - first:
+      213: 6732350154305003903
+    second: Big Anger_INFO_2
+  - first:
+      213: -6532769846991926592
+    second: Big Anger_INFO_3
+  - first:
+      213: 7607596185702957510
+    second: Big Anger_INFO_4
+  - first:
+      213: 8195720255015057796
+    second: Big Anger_INFO_5
+  - first:
+      213: -4851280947962885278
+    second: Big Anger_INFO_6
+  - first:
+      213: -2911102536993611749
+    second: Big Anger_INFO_7
+  - first:
+      213: -4527178348006478999
+    second: Big Anger_INFO_8
+  - first:
+      213: 497434699645400749
+    second: Big Anger_INFO_9
+  - first:
+      213: -9123319162130174228
+    second: Big Anger_INFO_10
+  - first:
+      213: 1745526313066615515
+    second: Big Anger_INFO_11
+  - first:
+      213: -4987842068532967493
+    second: Big Anger_INFO_12
+  - first:
+      213: 8367306557867124147
+    second: Big Anger_INFO_13
+  - first:
+      213: 8804819368482622255
+    second: Big Anger_INFO_14
+  - first:
+      213: 3776727763749405036
+    second: Big Anger_INFO_15
+  - first:
+      213: 4971106305527842211
+    second: Big Anger_INFO_16
+  - first:
+      213: 1876107282948274697
+    second: Big Anger_INFO_17
+  - first:
+      213: -246411196673704558
+    second: Big Anger_INFO_18
+  - first:
+      213: -3460698634876608084
+    second: Big Anger_INFO_19
+  - first:
+      213: -2073175083972986622
+    second: Big Anger_INFO_20
+  - first:
+      213: 7156870959458220972
+    second: Big Anger_INFO_21
+  - first:
+      213: 1054844065182841692
+    second: Big Anger_INFO_22
+  - first:
+      213: -8236136891476218456
+    second: Big Anger_INFO_23
+  - first:
+      213: -1612712866070735632
+    second: Big Anger_INFO_24
+  - first:
+      213: -403684010291240323
+    second: Big Anger_INFO_25
+  - first:
+      213: -8583518155553414263
+    second: Big Anger_INFO_26
+  - first:
+      213: 6144054834299579868
+    second: Big Anger_INFO_27
+  - first:
+      213: 69597440172289173
+    second: Big Anger_INFO_28
+  - first:
+      213: -4283102424690991153
+    second: Big Anger_INFO_29
+  - first:
+      213: 2710463464734070254
+    second: Big Anger_INFO_30
+  - first:
+      213: 1084020333322394605
+    second: Big Anger_INFO_31
+  - first:
+      213: 504093894681236901
+    second: Big Anger_INFO_32
+  - first:
+      213: 5816567053625065593
+    second: Big Anger_INFO_33
+  - first:
+      213: 1533760155185291260
+    second: Big Anger_INFO_34
+  - first:
+      213: 4692120746188317122
+    second: Big Anger_INFO_35
+  - first:
+      213: 4380312111080191394
+    second: Big Anger_INFO_36
+  - first:
+      213: -9062501346890627888
+    second: Big Anger_INFO_37
+  - first:
+      213: 6766759794273412461
+    second: Big Anger_INFO_38
+  - first:
+      213: 4831326902276780003
+    second: Big Anger_INFO_39
+  - first:
+      213: 8622600242049377476
+    second: Big Anger_INFO_40
+  - first:
+      213: -6141291945028694186
+    second: Big Anger_INFO_41
+  - first:
+      213: -576383688605658867
+    second: Big Anger_INFO_42
+  - first:
+      213: -3771137836433782270
+    second: Big Anger_INFO_43
+  - first:
+      213: 300250110919749923
+    second: Big Anger_INFO_44
+  - first:
+      213: 2451222784348771291
+    second: Big Anger_INFO_45
+  - first:
+      213: -1983760433617856167
+    second: Big Anger_INFO_46
+  - first:
+      213: 1789755280335222669
+    second: Big Anger_INFO_47
+  - first:
+      213: 2310352363234118345
+    second: Big Anger_INFO_48
+  - first:
+      213: 2340897799080819631
+    second: Big Anger_INFO_49
+  - first:
+      213: 184531239459007622
+    second: Big Anger_INFO_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Anger_INFO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1002
+        width: 1068
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d1f27e3b604f380800000000000000
+      internalID: -8938511990676054663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 998
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705442de303537560800000000000000
+      internalID: 7310277896481031431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_2
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 998
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7165eabbcc1e6d50800000000000000
+      internalID: 6732350154305003903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 715
+        width: 298
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cac9aeaf60f655a0800000000000000
+      internalID: -6532769846991926592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_4
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 712
+        width: 276
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c101739c6c939960800000000000000
+      internalID: 7607596185702957510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_5
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 845
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48975ae262c0db170800000000000000
+      internalID: 8195720255015057796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_6
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 715
+        width: 298
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b4d075ea9ccacb0800000000000000
+      internalID: -4851280947962885278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_7
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 756
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10e1c19aafa997d0800000000000000
+      internalID: -2911102536993611749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_8
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 775
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96beb3c474b3c21c0800000000000000
+      internalID: -4527178348006478999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 749
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6315b493e37e600800000000000000
+      internalID: 497434699645400749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 731
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee67b83f85736180800000000000000
+      internalID: -9123319162130174228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_11
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 712
+        width: 87
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2de6cfeea593810800000000000000
+      internalID: 1745526313066615515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_12
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 749
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7c75db010a7cab0800000000000000
+      internalID: -4987842068532967493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_13
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 731
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b567748bf4ae1470800000000000000
+      internalID: 8367306557867124147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_14
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 703
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bc2e1d090013a70800000000000000
+      internalID: 8804819368482622255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_15
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 732
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6183a324e1a96430800000000000000
+      internalID: 3776727763749405036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 708
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a501b9c8daecf440800000000000000
+      internalID: 4971106305527842211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_17
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 710
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ab7a042a5490a10800000000000000
+      internalID: 1876107282948274697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_18
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 708
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29db5997252949cf0800000000000000
+      internalID: -246411196673704558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_19
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 708
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca120895de029ffc0800000000000000
+      internalID: -3460698634876608084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 502
+        width: 306
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209799ace3a9a33e0800000000000000
+      internalID: -2073175083972986622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 422
+        width: 325
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabf0d90830525360800000000000000
+      internalID: 7156870959458220972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_22
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 640
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bf6a6a61f83ae00800000000000000
+      internalID: 1054844065182841692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_23
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 413
+        width: 276
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ade116522d53bd80800000000000000
+      internalID: -8236136891476218456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_24
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 549
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4d62d513e7e99e0800000000000000
+      internalID: -1612712866070735632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_25
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 455
+        width: 178
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72e51d0883d56af0800000000000000
+      internalID: -403684010291240323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_26
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 522
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9836f1707b731e880800000000000000
+      internalID: -8583518155553414263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_27
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 546
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdda2f6b151144550800000000000000
+      internalID: 6144054834299579868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_28
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 522
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ceebac08247f000800000000000000
+      internalID: 69597440172289173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_29
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 457
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfddaf990d5f84c0800000000000000
+      internalID: -4283102424690991153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_30
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 476
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5162819208d9520800000000000000
+      internalID: 2710463464734070254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_31
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 413
+        width: 87
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb5bf0ffb63b0f00800000000000000
+      internalID: 1084020333322394605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_32
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 404
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a51be5f9b6eef600800000000000000
+      internalID: 504093894681236901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_33
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 433
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9700093fae898b050800000000000000
+      internalID: 5816567053625065593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 155
+        width: 316
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff97742cb2094510800000000000000
+      internalID: 1533760155185291260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_35
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 411
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1abcf65f2cd1140800000000000000
+      internalID: 4692120746188317122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_36
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 409
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5b64a38aef9cc30800000000000000
+      internalID: 4380312111080191394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 164
+        width: 322
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4c51a4a078b3280800000000000000
+      internalID: -9062501346890627888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_38
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 382
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65ef0a5e2c58ed50800000000000000
+      internalID: 6766759794273412461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_39
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 125
+        width: 276
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efeefb58325c0340800000000000000
+      internalID: 4831326902276780003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_40
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 291
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4ec835c31a9a770800000000000000
+      internalID: 8622600242049377476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_41
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 197
+        width: 172
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fc892938fb5caa0800000000000000
+      internalID: -6141291945028694186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_42
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 264
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01945ac6164008f0800000000000000
+      internalID: -576383688605658867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_43
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 258
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a445c3e1a3aabc0800000000000000
+      internalID: -3771137836433782270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_44
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 169
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321b42592e3ba2400800000000000000
+      internalID: 300250110919749923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_45
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 188
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3d37e922e740220800000000000000
+      internalID: 2451222784348771291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_46
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 125
+        width: 87
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9599bb265644874e0800000000000000
+      internalID: -1983760433617856167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_47
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 116
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87b247e1fc76d810800000000000000
+      internalID: 1789755280335222669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_48
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 145
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cacd8ccb35001020800000000000000
+      internalID: 2310352363234118345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_49
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 123
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabb4b9452a8c7020800000000000000
+      internalID: 2340897799080819631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Anger_INFO_50
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 121
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68caae14f269f8200800000000000000
+      internalID: 184531239459007622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Big Anger_INFO_0: -8938511990676054663
+      Big Anger_INFO_1: 7310277896481031431
+      Big Anger_INFO_10: -9123319162130174228
+      Big Anger_INFO_11: 1745526313066615515
+      Big Anger_INFO_12: -4987842068532967493
+      Big Anger_INFO_13: 8367306557867124147
+      Big Anger_INFO_14: 8804819368482622255
+      Big Anger_INFO_15: 3776727763749405036
+      Big Anger_INFO_16: 4971106305527842211
+      Big Anger_INFO_17: 1876107282948274697
+      Big Anger_INFO_18: -246411196673704558
+      Big Anger_INFO_19: -3460698634876608084
+      Big Anger_INFO_2: 6732350154305003903
+      Big Anger_INFO_20: -2073175083972986622
+      Big Anger_INFO_21: 7156870959458220972
+      Big Anger_INFO_22: 1054844065182841692
+      Big Anger_INFO_23: -8236136891476218456
+      Big Anger_INFO_24: -1612712866070735632
+      Big Anger_INFO_25: -403684010291240323
+      Big Anger_INFO_26: -8583518155553414263
+      Big Anger_INFO_27: 6144054834299579868
+      Big Anger_INFO_28: 69597440172289173
+      Big Anger_INFO_29: -4283102424690991153
+      Big Anger_INFO_3: -6532769846991926592
+      Big Anger_INFO_30: 2710463464734070254
+      Big Anger_INFO_31: 1084020333322394605
+      Big Anger_INFO_32: 504093894681236901
+      Big Anger_INFO_33: 5816567053625065593
+      Big Anger_INFO_34: 1533760155185291260
+      Big Anger_INFO_35: 4692120746188317122
+      Big Anger_INFO_36: 4380312111080191394
+      Big Anger_INFO_37: -9062501346890627888
+      Big Anger_INFO_38: 6766759794273412461
+      Big Anger_INFO_39: 4831326902276780003
+      Big Anger_INFO_4: 7607596185702957510
+      Big Anger_INFO_40: 8622600242049377476
+      Big Anger_INFO_41: -6141291945028694186
+      Big Anger_INFO_42: -576383688605658867
+      Big Anger_INFO_43: -3771137836433782270
+      Big Anger_INFO_44: 300250110919749923
+      Big Anger_INFO_45: 2451222784348771291
+      Big Anger_INFO_46: -1983760433617856167
+      Big Anger_INFO_47: 1789755280335222669
+      Big Anger_INFO_48: 2310352363234118345
+      Big Anger_INFO_49: 2340897799080819631
+      Big Anger_INFO_5: 8195720255015057796
+      Big Anger_INFO_50: 184531239459007622
+      Big Anger_INFO_6: -4851280947962885278
+      Big Anger_INFO_7: -2911102536993611749
+      Big Anger_INFO_8: -4527178348006478999
+      Big Anger_INFO_9: 497434699645400749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

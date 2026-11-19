@@ -173,7 +173,11 @@ public class Payload
     public double winAmount { get; set; }
     public List<LineWin> lineWins { get; set; }
     public bool prizeWheelTriggered { get; set; }
+    public PrizeWheelResult prizeWheelResult { get; set; }
+    public List<WheelSlice> prizeWheelSlices { get; set; }
     public bool pendingFreeGamesChoice { get; set; }
+    public List<FreeGameOption> freeGamesOptions { get; set; } // sent with pendingFreeGamesChoice
+    public FreeGamesResult freeGames { get; set; }             // BONUS reply and every free spin
     public double grandTotalWin { get; set; }
     public bool isRespin { get; set; }
     public int respinCount { get; set; }
@@ -183,16 +187,76 @@ public class Payload
 }
 
 [Serializable]
+public class PrizeWheelResult
+{
+    public int sliceIndex { get; set; }
+    public string type { get; set; }   // "free_games", "fishing_bonus", "instant_win", "progressive"
+    public double value { get; set; }
+    public double winCash { get; set; }
+    public ProgressivePrizeWheel progressivePrizeWheel { get; set; } // only when type == "progressive"
+}
+
+[Serializable]
+public class ProgressivePrizeWheel
+{
+    public bool triggered { get; set; }
+    public int sliceIndex { get; set; }
+    public string prizeName { get; set; }  // "diamond", "gold", "silver"
+    public double multiplier { get; set; }
+    public double winCash { get; set; }
+    public Dictionary<string, double> prizes { get; set; } // prize name -> cash value
+    public List<ProgressiveSlice> slices { get; set; }
+}
+
+[Serializable]
+public class ProgressiveSlice
+{
+    public string name { get; set; }
+    public string type { get; set; }
+    public double value { get; set; }
+    public double multiplier { get; set; }
+}
+
+[Serializable]
+public class FreeGamesResult
+{
+    public bool triggered { get; set; }
+    public bool active { get; set; }
+    public int spinsRemaining { get; set; }
+    public int totalSpins { get; set; }
+    public double totalWinCash { get; set; }
+    public FreeGamesChoice optionChosen { get; set; }
+}
+
+[Serializable]
+public class FreeGamesChoice
+{
+    public int choiceIndex { get; set; }
+    public int spins { get; set; }
+    public int scatterSymbolId { get; set; }
+    public double scatterMultiplier { get; set; }
+}
+
+[Serializable]
 public class LineWin
 {
     public int lineIndex { get; set; }
-    public List<MatchedPosition> matchedPositions { get; set; }
+    public List<LinePosition> positions { get; set; } // backend: [{ "position": [row, col] }]
+    [Newtonsoft.Json.JsonIgnore]
+    public List<MatchedPosition> matchedPositions =>
+        positions?.ConvertAll(p => new MatchedPosition { row = p.position[0], col = p.position[1] }) ?? new List<MatchedPosition>();
     public List<int> symbolIds { get; set; }
     public int basePayout { get; set; }
     public int winInCredits { get; set; }
     public double winInCash { get; set; }
     public int matchLength { get; set; }
     public int lineMultiplier { get; set; }
+}
+
+[Serializable]
+public class LinePosition
+{
+    public List<int> position { get; set; }
 }
 
 [Serializable]

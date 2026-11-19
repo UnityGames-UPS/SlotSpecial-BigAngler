@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 2a2ef3400f33b444c8c8959ec5caa9fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3562278349031372750
+    second: Big Angler_progressive prize wheel p7_0
+  - first:
+      213: -2782927992776572159
+    second: Big Angler_progressive prize wheel p7_1
+  - first:
+      213: -8872946693728374971
+    second: Big Angler_progressive prize wheel p7_2
+  - first:
+      213: 1642002339971743896
+    second: Big Angler_progressive prize wheel p7_3
+  - first:
+      213: 5001217285120357237
+    second: Big Angler_progressive prize wheel p7_4
+  - first:
+      213: -6062190894622662797
+    second: Big Angler_progressive prize wheel p7_5
+  - first:
+      213: 8552994790915384419
+    second: Big Angler_progressive prize wheel p7_6
+  - first:
+      213: 6955313623738721605
+    second: Big Angler_progressive prize wheel p7_7
+  - first:
+      213: 1748136975392569398
+    second: Big Angler_progressive prize wheel p7_8
+  - first:
+      213: -3629664620572560855
+    second: Big Angler_progressive prize wheel p7_9
+  - first:
+      213: 5576960755575024836
+    second: Big Angler_progressive prize wheel p7_10
+  - first:
+      213: -1893557749435793469
+    second: Big Angler_progressive prize wheel p7_11
+  - first:
+      213: 3932299826787776602
+    second: Big Angler_progressive prize wheel p7_12
+  - first:
+      213: 5201462572365786634
+    second: Big Angler_progressive prize wheel p7_13
+  - first:
+      213: -4869309725349734745
+    second: Big Angler_progressive prize wheel p7_14
+  - first:
+      213: 8115512874096791419
+    second: Big Angler_progressive prize wheel p7_15
+  - first:
+      213: 878260946766431249
+    second: Big Angler_progressive prize wheel p7_16
+  - first:
+      213: -4995691163624057877
+    second: Big Angler_progressive prize wheel p7_17
+  - first:
+      213: -5446466329111043515
+    second: Big Angler_progressive prize wheel p7_18
+  - first:
+      213: -3757948920996952281
+    second: Big Angler_progressive prize wheel p7_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_0
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2388bee17be309ec0800000000000000
+      internalID: -3562278349031372750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_1
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1204
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103cf033cbd0169d0800000000000000
+      internalID: -2782927992776572159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_2
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1189
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fe7513ef5fcd480800000000000000
+      internalID: -8872946693728374971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1151
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8904062bd6099c610800000000000000
+      internalID: 1642002339971743896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_4
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1125
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573742c8f94e76540800000000000000
+      internalID: 5001217285120357237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_5
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1099
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f986d0085cedba0800000000000000
+      internalID: -6062190894622662797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_6
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1045
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3642746527752b670800000000000000
+      internalID: 8552994790915384419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_7
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1027
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545a164d3ec368060800000000000000
+      internalID: 6955313623738721605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_8
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 967
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638fffc2151a24810800000000000000
+      internalID: 1748136975392569398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_9
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 947
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92238f42247d0adc0800000000000000
+      internalID: -3629664620572560855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_10
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 892
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cce75a5248556d40800000000000000
+      internalID: 5576960755575024836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_11
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 871
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cff037624bb8b5e0800000000000000
+      internalID: -1893557749435793469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_12
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 791
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58f306bbd5529630800000000000000
+      internalID: 3932299826787776602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_13
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 797
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e2a5aa6ae4f2840800000000000000
+      internalID: 5201462572365786634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_14
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 717
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a69c2f7a9cbc6cb0800000000000000
+      internalID: -4869309725349734745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_15
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 725
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f06ae06f710a070800000000000000
+      internalID: 8115512874096791419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 652
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1148c188da5303c00800000000000000
+      internalID: 878260946766431249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_17
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 629
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be351a0ea5dbbaab0800000000000000
+      internalID: -4995691163624057877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_18
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 628
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542e534fab34a64b0800000000000000
+      internalID: -5446466329111043515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Angler_progressive prize wheel p7_19
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 672
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7270ae7ed5519dbc0800000000000000
+      internalID: -3757948920996952281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Big Angler_progressive prize wheel p7_0: -3562278349031372750
+      Big Angler_progressive prize wheel p7_1: -2782927992776572159
+      Big Angler_progressive prize wheel p7_10: 5576960755575024836
+      Big Angler_progressive prize wheel p7_11: -1893557749435793469
+      Big Angler_progressive prize wheel p7_12: 3932299826787776602
+      Big Angler_progressive prize wheel p7_13: 5201462572365786634
+      Big Angler_progressive prize wheel p7_14: -4869309725349734745
+      Big Angler_progressive prize wheel p7_15: 8115512874096791419
+      Big Angler_progressive prize wheel p7_16: 878260946766431249
+      Big Angler_progressive prize wheel p7_17: -4995691163624057877
+      Big Angler_progressive prize wheel p7_18: -5446466329111043515
+      Big Angler_progressive prize wheel p7_19: -3757948920996952281
+      Big Angler_progressive prize wheel p7_2: -8872946693728374971
+      Big Angler_progressive prize wheel p7_3: 1642002339971743896
+      Big Angler_progressive prize wheel p7_4: 5001217285120357237
+      Big Angler_progressive prize wheel p7_5: -6062190894622662797
+      Big Angler_progressive prize wheel p7_6: 8552994790915384419
+      Big Angler_progressive prize wheel p7_7: 6955313623738721605
+      Big Angler_progressive prize wheel p7_8: 1748136975392569398
+      Big Angler_progressive prize wheel p7_9: -3629664620572560855
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

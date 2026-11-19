@@ -4,7 +4,7 @@ internal class AudioController : MonoBehaviour
 {
     [Header("Audio Sources")]
     [SerializeField] private AudioSource bgMusicSource;
-    [SerializeField] private AudioSource gameSoundSource; // reel spin loop + its stop hit only — the one case where stopping a loop and replacing it with a one-shot is the desired behavior
+    [SerializeField] private AudioSource gameSoundSource; // reel/wheel spin + its stop hit only — the one case where stopping a loop and replacing it with a one-shot is the desired behavior
     [SerializeField] private AudioSource sfxSource;        // every other one-shot SFX, via PlayOneShot so they layer instead of cutting each other off
 
     [Header("Background")]
@@ -24,16 +24,21 @@ internal class AudioController : MonoBehaviour
     [Header("Win Line Sounds")]
     [SerializeField] private AudioClip paylineHighlight;  // paylines in slot.mp3 — plays as each line is cycled through
 
-    [Header("Symbol Win Sounds")]
-    [SerializeField] private AudioClip wildWin;   // wild win.mp3 — any line containing a wild
-    [SerializeField] private AudioClip dogWin;    // dog win.mp3 — dog (4)
-    [SerializeField] private AudioClip zombieWin; // zombie win.mp3 — zombie dog/man/woman (5,6,7)
-    [SerializeField] private AudioClip manWin;    // manwin.mp3 — gun man, female (2,3)
-    [SerializeField] private AudioClip gunWin;    // gun win.mp3 — gun, syringe, medkit (8,0,1)
+    [Header("Wins")]
+    [SerializeField] private AudioClip normalWin; // normal win small wins.mp3
+    [SerializeField] private AudioClip totalWin;  // total win.mp3
 
-    [Header("Features")]
-    [SerializeField] private AudioClip wildExplosion; // wild.mp3 — syringe/medkit blast turning cells wild
-    [SerializeField] private AudioClip fiveOfAKind;   // 5 of kind in or out.wav
+    [Header("Bonus Wheel")]
+    [SerializeField] private AudioClip bonusIcon;     // bonus icon .mp3 — a reel stops with the bonus-wheel symbol on it
+    [SerializeField] private AudioClip bonusTrigger;  // bonus scatter hit.mp3 — bonus symbols animate before the wheel
+    [SerializeField] private AudioClip wheelAppear;   // spinnnng bonus wheel on screen.mp3
+    [SerializeField] private AudioClip touchToSpin;   // touch to spin text.mp3
+    [SerializeField] private AudioClip wheelSpinning; // wheel spining.mp3
+    [SerializeField] private AudioClip wheelStop;     // wheel spin stop.mp3
+
+    [Header("Fishing Bonus")]
+    [SerializeField] private AudioClip fishingBonusWon; // you won fishing bonus.mp3
+    [SerializeField] private AudioClip fishCaught;      // fish caught.mp3
 
     private bool isGameMuted = false;
     private bool isMusicMuted = false;
@@ -139,37 +144,16 @@ internal class AudioController : MonoBehaviour
         PlaySfx(paylineHighlight);
     }
 
-    internal void PlayFreeSpinsWon()
-    {
-        //PlaySfx(freeSpinsWon);
-    }
-
-    internal void PlayFreeSpinsWinAmount()
-    {
-        //PlaySfx(freeSpinsWinAmount);
-    }
-
-    internal void PlayWildExplosion()
-    {
-        PlaySfx(wildExplosion);
-    }
-
-    internal void PlayFiveOfAKind()
-    {
-        PlaySfx(fiveOfAKind);
-    }
-
-    internal void PlaySymbolWin(int symbolId, bool hasWild)
-    {
-        if (hasWild) { PlaySfx(wildWin); return; }
-        switch (symbolId)
-        {
-            case 4: PlaySfx(dogWin); break;
-            case 5: case 6: case 7: PlaySfx(zombieWin); break;
-            case 2: case 3: PlaySfx(manWin); break;
-            case 0: case 1: case 8: PlaySfx(gunWin); break;
-        }
-    }
+    internal void PlayNormalWin() => PlaySfx(normalWin);
+    internal void PlayTotalWin() => PlaySfx(totalWin);
+    internal void PlayBonusIcon() => PlaySfx(bonusIcon);
+    internal void PlayBonusTrigger() => PlaySfx(bonusTrigger);
+    internal void PlayWheelAppear() => PlaySfx(wheelAppear);
+    internal void PlayTouchToSpin() => PlaySfx(touchToSpin);
+    internal void PlayWheelSpinning() => PlayGame(wheelSpinning, false);
+    internal void PlayWheelStop() => PlayGame(wheelStop, false); // cuts the spin clip, like reel stop
+    internal void PlayFishingBonusWon() => PlaySfx(fishingBonusWon);
+    internal void PlayFishCaught() => PlaySfx(fishCaught);
 
     // Stop-and-replace — only for the reel spin loop and its stop hit, where interrupting the
     // currently playing clip is the desired behavior (starting a new spin should cut the old one).

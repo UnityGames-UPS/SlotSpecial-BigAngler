@@ -579,4 +579,11 @@ public class SocketIOManager : MonoBehaviour
     string json = JsonUtility.ToJson(message);
     SendDataWithNamespace("request", json);
   }
+
+  // Free games pick; the reply arrives as ResultData carrying payload.freeGames.
+  internal void SendFreeGamesChoice(int choiceIndex)
+  {
+    isResultdone = false;
+    SendDataWithNamespace("request", JsonConvert.SerializeObject(new { type = "BONUS", payload = new { choiceIndex } }));
+  }
 }
