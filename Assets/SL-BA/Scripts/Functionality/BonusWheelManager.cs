@@ -282,8 +282,8 @@ public class BonusWheelManager : MonoBehaviour
         glowPulse.gameObject.SetActive(true);
 
         _glowPulseTween = DOTween.Sequence()
-            .Append(rt.DOScale(glowPulseScale, 0.5f).SetEase(Ease.OutQuad))
-            .Insert(0.2f, glowPulse.DOFade(0f, 0.4f))
+            .Append(rt.DOScale(glowPulseScale, 1f).SetEase(Ease.OutQuad))
+            .Insert(0.7f, glowPulse.DOFade(0f, 0.3f))
             .AppendInterval(Mathf.Max(0f, glowPulseInterval - 0.6f))
             .SetLoops(-1, LoopType.Restart);
     }

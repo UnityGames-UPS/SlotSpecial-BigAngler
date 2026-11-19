@@ -117,7 +117,9 @@ public class FreeSpinManager : MonoBehaviour
 
     internal void UpdateCounter(FreeGamesResult fg)
     {
-        remainingText.text = UIManager.ToSpriteString(fg.spinsRemaining);
+        // A retrigger spin reports 0 remaining while the new pick is pending; total - completed is what's really left.
+        int remaining = fg.spinsRemaining > 0 ? fg.spinsRemaining : fg.totalFreeGamesCount - fg.completedFreeGamesCount;
+        remainingText.text = UIManager.ToSpriteString(remaining);
         totalText.text = UIManager.ToSpriteString(fg.totalSpins);
     }
 
@@ -141,14 +143,21 @@ public class FreeSpinManager : MonoBehaviour
         totalWinPopup.gameObject.SetActive(true);
 
         audioController.PlayTotalWin();
-        Sequence seq = DOTween.Sequence();
-        seq.Append(totalWinTitle.DOScale(1f, 0.4f).SetEase(Ease.OutBack));
-        seq.Join(totalWinPanel.DOScale(1f, 0.4f).SetEase(Ease.OutBack));
-        seq.AppendInterval(totalWinHoldDuration);
-        if (clearWin) seq.AppendCallback(() => uiManager.UpdateWin(0)); // WIN -> GOOD LUCK just before the fade, as in the clip
-        seq.Append(totalWinPopup.DOFade(0f, 0.4f));
-        seq.AppendCallback(() => totalWinPopup.gameObject.SetActive(false));
-        yield return seq.WaitForCompletion();
+        Sequence show = DOTween.Sequence();
+        show.Append(totalWinTitle.DOScale(1f, 0.4f).SetEase(Ease.OutBack));
+        show.Join(totalWinPanel.DOScale(1f, 0.4f).SetEase(Ease.OutBack));
+
+        // Holds until the time runs out or the player taps TAKE.
+        bool taken = false;
+        uiManager.ShowTakeButton(() => taken = true);
+        for (float t = 0f; t < 0.4f + totalWinHoldDuration && !taken; t += Time.deltaTime)
+            yield return null;
+        uiManager.HideTakeButton();
+        show.Complete();
+
+        if (clearWin) uiManager.UpdateWin(0); // WIN -> GOOD LUCK just before the fade, as in the clip
+        yield return totalWinPopup.DOFade(0f, 0.4f).WaitForCompletion();
+        totalWinPopup.gameObject.SetActive(false);
     }
 
     // shortcut: demo only — plays the screens without the backend, remove before shipping.

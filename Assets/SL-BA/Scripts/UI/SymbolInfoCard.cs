@@ -113,15 +113,19 @@ public class SymbolInfoCard : MonoBehaviour
     }
 
     // Symbol IDs whose card should show only a description, with no name and no multipliers.
-    private const int SyringeSymbolId = 20;
-    private const int MedKitWildSymbolId = 21;
+    private const int BonusWheelSymbolId = 11;
+    private const int Scatter1SymbolId = 12;
+    private const int Scatter2SymbolId = 13;
+    private const int Scatter3SymbolId = 14;
+
 
     private static readonly System.Collections.Generic.Dictionary<int, string> DescriptionOnlySymbols =
         new System.Collections.Generic.Dictionary<int, string>
         {
-            { SyringeSymbolId, "\"Virus\" explodes and transforms itself and all surrounding symbols into Wilds." },
-            { MedKitWildSymbolId, "\"Medical kit\" explodes and transforms itself and all surrounding symbols into Wilds." },
-
+            { BonusWheelSymbolId, "Line up 3 Bonus Wheel symbols on the payline to trigger the Prize Wheel" },
+            { Scatter1SymbolId, "Scatter Symbol" },
+            { Scatter2SymbolId, "Scatter Symbol" },
+            { Scatter3SymbolId, "Scatter Symbol" }
         };
 
     private void SetupCardContent(int symbolId, SocketIOManager socketManager, int betCounter)

@@ -224,6 +224,8 @@ public class FreeGamesResult
     public bool active { get; set; }
     public int spinsRemaining { get; set; }
     public int totalSpins { get; set; }
+    public int totalFreeGamesCount { get; set; }
+    public int completedFreeGamesCount { get; set; }
     public double totalWinCash { get; set; }
     public FreeGamesChoice optionChosen { get; set; }
 }

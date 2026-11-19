@@ -79,19 +79,20 @@ public class FishingBonusManager : MonoBehaviour
         sceneRoot.SetActive(true);
         introRoot.SetActive(false);
 
-        // Cast: START or a tap on the hook.
+        // Cast: START or a tap on the hook. Until then the hook glow breathes in and out.
+        Graphic glow = hookGlow ? hookGlow.GetComponent<Graphic>() : null;
+        Tween glowPulse = null;
+        if (glow)
+        {
+            SetAlpha(glow, 0f);
+            hookGlow.gameObject.SetActive(true);
+            glowPulse = glow.DOFade(1f, 0.6f).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
+        }
         bonusWheelManager.SetStartButtonsShown(true);
         _awaitingCast = true;
         yield return new WaitUntil(() => !_awaitingCast);
+        glowPulse?.Kill(); // holds its current alpha, then fades out with the swarm
 
-        Tween glowSpin = null;
-        if (hookGlow)
-        {
-            hookGlow.localScale = Vector3.zero;
-            hookGlow.gameObject.SetActive(true);
-            hookGlow.DOScale(1f, 0.2f).SetEase(Ease.OutBack);
-            glowSpin = hookGlow.DORotate(new Vector3(0f, 0f, -360f), 1f, RotateMode.FastBeyond360).SetEase(Ease.Linear).SetLoops(-1, LoopType.Incremental);
-        }
         yield return new WaitForSeconds(glowDuration);
         uiManager.SetStartButtonInteractable(false);
 
@@ -105,8 +106,8 @@ public class FishingBonusManager : MonoBehaviour
             swarm.Join(_fish[i].DOScale(_fishScale[i] * 0.8f, swarmDuration));
         }
         swarm.Insert(0.1f, whiteWash.DOFade(1f, whiteFadeDuration));
+        if (glow) swarm.Insert(0f, glow.DOFade(0f, swarmDuration)); // glow slowly dies as the fish close in
         yield return swarm.WaitForCompletion();
-        glowSpin?.Kill();
         if (hookGlow) hookGlow.gameObject.SetActive(false);
 
         // White swirl, then the prize lands in the WIN bar.
@@ -196,4 +197,11 @@ public class FishingBonusManager : MonoBehaviour
     // shortcut: demo only — plays the bonus without the backend, remove before shipping.
     [ContextMenu("Test Fishing Bonus")]
     private void TestFishingBonus() => StartCoroutine(Play(0.10, false));
+
+    private static void SetAlpha(Graphic graphic, float alpha)
+    {
+        Color c = graphic.color;
+        c.a = alpha;
+        graphic.color = c;
+    }
 }

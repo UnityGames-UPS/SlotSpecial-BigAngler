@@ -17,6 +17,7 @@ public class SlotManager : MonoBehaviour
     [SerializeField] private List<SlotImage> _totalImages;
     [SerializeField] internal List<SlotImage> _resultImages;
     [SerializeField] private List<ImageAnimation> reelBgs;
+    [SerializeField] private float reelBgHoldDuration = 1.5f; // extra spin time for a reel whose BG is teasing
     [SerializeField] private List<AnimSlot> winAnimationImages;
 
     [Header("Slots Transforms")]
@@ -326,6 +327,10 @@ public class SlotManager : MonoBehaviour
 
         for (int i = 0; i < _numberOfSlots; i++)
         {
+
+            // Teased reel (its BG is playing) keeps spinning a beat longer; a stop press cuts the hold short.
+            for (float t = 0f; reelBgs[i].gameObject.activeSelf && t < reelBgHoldDuration && !_stopSpinToggle; t += Time.deltaTime)
+                yield return null;
 
             yield return StopTweening(_slotTransforms[i], i, _stopSpinToggle || isTurbo);
 

@@ -1061,6 +1061,20 @@ public class UIManager : MonoBehaviour
 
     #region Free Spins Flow
 
+    // The universal-win TAKE button on its own, for the free-games / fishing total-win popup. onTake fires once, on tap.
+    internal void ShowTakeButton(System.Action onTake)
+    {
+        universalWinPopupCallback = onTake;
+        SetButtonActive(uwpTakeButton, uwpTakeButtonPortrait, true);
+        SetButtonInteractable(uwpTakeButton, uwpTakeButtonPortrait, true);
+    }
+
+    internal void HideTakeButton()
+    {
+        universalWinPopupCallback = null;
+        SetButtonActive(uwpTakeButton, uwpTakeButtonPortrait, false);
+    }
+
     // Shown, disabled, in the gap between every chained free spin (manual or autoplay) —
     // a visual placeholder only, the next free spin starts itself automatically.
     internal void ShowFreeSpinBetweenSpinsPlaceholder()
