@@ -1558,10 +1558,10 @@ MonoBehaviour:
   majorJackpotText: {fileID: 563574607}
   minorJackpotText: {fileID: 2107348086}
   miniJackpotText: {fileID: 1828484458}
-  grandJackpotTextPortrait: {fileID: 311707970}
-  majorJackpotTextPortrait: {fileID: 2041121716}
-  minorJackpotTextPortrait: {fileID: 495146187}
-  miniJackpotTextPortrait: {fileID: 144752147}
+  grandJackpotTextPortrait: {fileID: 991145388}
+  majorJackpotTextPortrait: {fileID: 2109013955}
+  minorJackpotTextPortrait: {fileID: 1895395505}
+  miniJackpotTextPortrait: {fileID: 892218414}
   grandJackpotPortraitParent: {fileID: 1160711331}
   majorJackpotPortraitParent: {fileID: 355885620}
   minorJackpotPortraitParent: {fileID: 1953788700}
@@ -4525,17 +4525,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136744570}
   m_CullTransparentMesh: 1
---- !u!114 &144752147 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8979552415323778613, guid: b70214b74b2cd45bab5060ba1749bc3f, type: 3}
-  m_PrefabInstance: {fileID: 784919240}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &149709453
 GameObject:
   m_ObjectHideFlags: 0
@@ -5072,7 +5061,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.00000095367, y: 3.1}
-  m_SizeDelta: {x: 298, y: 80.58}
+  m_SizeDelta: {x: 547.29, y: 80.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &157601833
 MonoBehaviour:
@@ -5121,12 +5110,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80.5
+  m_fontSize: 66.05
   m_fontSizeBase: 80.5
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 80
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -9328,17 +9317,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309075468}
   m_CullTransparentMesh: 1
---- !u!114 &311707970 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7506422443835718381, guid: b70214b74b2cd45bab5060ba1749bc3f, type: 3}
-  m_PrefabInstance: {fileID: 784919240}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &316786663
 GameObject:
   m_ObjectHideFlags: 0
@@ -9854,7 +9832,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 5.7, y: 0.000014782}
-  m_SizeDelta: {x: 298, y: 80.58}
+  m_SizeDelta: {x: 719.13, y: 80.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &331351517
 MonoBehaviour:
@@ -9903,12 +9881,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80.5
+  m_fontSize: 66.05
   m_fontSizeBase: 80.5
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 80
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -10389,7 +10367,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 3.1}
-  m_SizeDelta: {x: 298, y: 80.58}
+  m_SizeDelta: {x: 545.64, y: 80.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &351282807
 MonoBehaviour:
@@ -10438,12 +10416,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80.5
+  m_fontSize: 66.05
   m_fontSizeBase: 80.5
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 80
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -14299,17 +14277,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492017262}
   m_CullTransparentMesh: 0
---- !u!114 &495146187 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5365360383318726176, guid: b70214b74b2cd45bab5060ba1749bc3f, type: 3}
-  m_PrefabInstance: {fileID: 784919240}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &495407244
 GameObject:
   m_ObjectHideFlags: 0
@@ -16621,8 +16588,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: 0}
-  m_SizeDelta: {x: 696.3, y: 159.05}
+  m_AnchoredPosition: {x: -0.44172, y: -61}
+  m_SizeDelta: {x: 1080.9, y: 256.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &557383319
 MonoBehaviour:
@@ -16644,7 +16611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <sprite index="0"><sprite index="1"><sprite index="2">
+  m_text: <sprite index="0"><sprite index="1"><sprite index="2"><sprite index="2">
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16671,15 +16638,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 206.4
+  m_fontSize: 206
   m_fontSizeBase: 206.4
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 96
+  m_fontSizeMax: 206
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 32
+  m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -24274,7 +24241,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 2.6, y: 2}
-  m_SizeDelta: {x: 298, y: 80.58}
+  m_SizeDelta: {x: 644.1, y: 80.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &874584432
 MonoBehaviour:
@@ -24323,12 +24290,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80.5
+  m_fontSize: 66.05
   m_fontSizeBase: 80.5
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 80
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -53121,17 +53088,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037233596}
   m_CullTransparentMesh: 1
---- !u!114 &2041121716 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7427287001636274649, guid: b70214b74b2cd45bab5060ba1749bc3f, type: 3}
-  m_PrefabInstance: {fileID: 784919240}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &2042955498
 GameObject:
   m_ObjectHideFlags: 0
